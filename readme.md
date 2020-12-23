@@ -4,6 +4,8 @@
 
 * PANDAS (module)
 
+* VS CODE (https://www.udemy.com/course/learn-visual-studio-code/) => please ask me for access !!
+
 * PDB - Python debugging
 
 * PEP8 - https://pep8.org/ 
