@@ -36,3 +36,4 @@
 
 * AWS POWER TOOLS ( later, not now)
 
+For Reference, Please find the link from [python Programming](https://edu.heibai.org/Expert_Python_Programming.pdf) by Tarek Ziadé.
