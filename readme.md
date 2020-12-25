@@ -4,7 +4,6 @@
 
 * PANDAS (module)
 
-* VS CODE (https://www.udemy.com/course/learn-visual-studio-code/) => please ask me for access !!
 
 * PDB - Python debugging
 
@@ -36,4 +35,11 @@
 
 * AWS POWER TOOLS ( later, not now)
 
+## OTHERS
+
+* VS CODE (https://www.udemy.com/course/learn-visual-studio-code/) => please ask me for access !!
+
+* FRONT-END WEB : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY)
+ 
+## REFERENCES
 For Reference, Please find the link from [python Programming](https://edu.heibai.org/Expert_Python_Programming.pdf) by Tarek Ziadé.
