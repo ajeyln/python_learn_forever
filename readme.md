@@ -7,7 +7,9 @@
 
 * PDB - Python debugging
 
-* PEP8 - https://pep8.org/ 
+* PEP8 -
+  [Guide] (https://pep8.org/)
+  [Naming Video] (https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g)
 
 * PYTHON ENVIRONMENT - concept and hands-on
 
