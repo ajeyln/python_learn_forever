@@ -193,7 +193,9 @@ Avoid extraneous whitespace in the following situations:<br />
 	```
 
 	**Should not be**<br />
+	```python
 	if x == 4 : print x , y ; x , y = y , x
+	```
 
 * **When to use trailing commas**<br />
 
@@ -218,6 +220,6 @@ Avoid extraneous whitespace in the following situations:<br />
 ##  Useful Links
 
 | **Sl. No.** | **Link** | **Remarks** |
-----------|--------------|--------------
+----------|--------------|--------------------------------------------------------------------------------------|
 1| https://pep8.org/ | PEP8 Style Guide for Python code |
 2| https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g%29 | PEP8 Naming Convention|
