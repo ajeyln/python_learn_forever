@@ -1,16 +1,17 @@
 <h1 align ="Center"> MODULES and TECHNIQUES </h1>
 
+## Background
 
-This repository containg the information about various types of Python Modules, Techniques, which may required for configuration of Web Development and Cloud Technology. <br />
+This repository contains the information about various Python modules, key-concepts and Editors <br />
+These informations help me to improve my python scripts standards and some concepts ease my work on the various concepts related to Web Development, Cloud Technology etc. <br />
 
 ## Content
 
-Based the priority Module and Techniques , I have created 4 folders 
+The Repository contains the following folders
 
-* **BASIC**
-
-[x] PANDAS  <br />
-[x] PEP8 - The file is created based on the link [Naming Convesion](https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g) <br />
+[x] Panadas -  Python Module for working with Data frames and The folder contains my notes and exercises for your reference.. <br />
+[x] pep8 -   <br />
+[x] visual_studio_editor - The file is created based on the link[Visual Studio Code Tutorial](https://www.udemy.com/course/learn-visual-studio-code/learn/lecture/12524810#overview)
 [ ] Custom Moduling
 [ ] PDB - Python debugging <br />
 [ ] PYTHON ENVIRONMENT - concept and hands-on <br />
@@ -23,16 +24,8 @@ Based the priority Module and Techniques , I have created 4 folders
 [ ] REQUESTS  <br />
 [ ] DECORATORS in Python <br />
 [ ] PIPFILE
-
-* **ADVANCED**
-
 [ ]BOTO3<br />
 [ ]AWS POWER TOOLS ( later, not now)
-
-## OTHERS
-
-[x] visual_studio_editor - The file is created based on the link[Visual Studio Code Tutorial](https://www.udemy.com/course/learn-visual-studio-code/learn/lecture/12524810#overview)
-
 [ ] FRONT-END WEB : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY)
  
 ## REFERENCES
@@ -43,6 +36,15 @@ For Reference, Please find the link from [python Programming](https://edu.heibai
 
 | **Sl. No.** | **Link** | **Remarks** |
 ----------|--------------|--------------
-1|[PEP8 Tutorial Guide](https://pep8.org/) | Guide for PEP8 |
-2| [Pandas Tuorial](https://www.youtube.com/watch?v=UB3DE5Bgfx4)| Pandas Fundamentals and Tutorial |
+1| [Pandas Tuorial](https://www.youtube.com/watch?v=UB3DE5Bgfx4)| Pandas Fundamentals and Tutorial |
+2|[PEP8 Tutorial Guide](https://pep8.org/) | Guide for PEP8 |
+3|[Naming Convesion](https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g) | Naming convesion method in python Script |
+4| [Visual Studio] (https://code.visualstudio.com/docs) | Visual Studio Code Tutorial |
+5| [Emmet Tutorial](https://docs.emmet.io/)| Emmet Tutorial |
+6|[Edit Config](https://editorconfig.org/) | Coding Style Tutorial |
+
+<h2>Contact :</h2>
+
+For any feedback, queries Please send Email to ajeyanayak@gmail.com:star2:
+
 
