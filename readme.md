@@ -10,9 +10,9 @@ These informations help me to improve my python scripts standards and some conce
 The Repository contains the following folders
 
 [x] Panadas -  Python Module for working with Data frames and The folder contains my notes and exercises for your reference.. <br />
-[x] pep8 -   <br />
-[x] visual_studio_editor - The file is created based on the link[Visual Studio Code Tutorial](https://www.udemy.com/course/learn-visual-studio-code/learn/lecture/12524810#overview)
-[ ] Custom Moduling
+[x] pep8 -  This folder containg the guidelines and best practices on how to write Python code <br />
+[x] visual_studio_editor - This folder has a full set of information on visual studio editor, such as shortcuts,customization , snippets ,debugging,source control,live share and extensions <br />
+[ ] Custom Moduling - <br />
 [ ] PDB - Python debugging <br />
 [ ] PYTHON ENVIRONMENT - concept and hands-on <br />
 [ ] PYLINT to imporve the code <br />
@@ -24,8 +24,8 @@ The Repository contains the following folders
 [ ] REQUESTS  <br />
 [ ] DECORATORS in Python <br />
 [ ] PIPFILE
-[ ]BOTO3<br />
-[ ]AWS POWER TOOLS ( later, not now)
+[ ] BOTO3<br />
+[ ] AWS POWER TOOLS ( later, not now)
 [ ] FRONT-END WEB : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY)
  
 ## REFERENCES
