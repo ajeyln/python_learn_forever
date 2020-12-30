@@ -1,3 +1,4 @@
+''' The script is '''
 def add_num(a,b):
     return a + b
 
@@ -14,7 +15,7 @@ def odd_even(a):
     if(a % 2 == 0):
         print("{0} is even". format(a))
     else:
-        print("{0} is even". format(a))
+        print("{0} is odd". format(a))
 
 if __name__ == "__main__":
     x = int(input("Please Enter a Number:"))
