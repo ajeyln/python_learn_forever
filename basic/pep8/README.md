@@ -1,4 +1,4 @@
-<h1 align="center">Python Enhancement Purposal </h1>
+<h1 align="center">Python Enhancement Proposal 8 </h1>
 
 ## Introduction
 
