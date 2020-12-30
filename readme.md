@@ -39,7 +39,7 @@ For Reference, Please find the link from [python Programming](https://edu.heibai
 1| [Pandas Tuorial](https://www.youtube.com/watch?v=UB3DE5Bgfx4)| Pandas Fundamentals and Tutorial |
 2|[PEP8 Tutorial Guide](https://pep8.org/) | Guide for PEP8 |
 3|[Naming Convesion](https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g) | Naming convesion method in python Script |
-4| [Visual Studio] (https://code.visualstudio.com/docs) | Visual Studio Code Tutorial |
+4| [Visual Studio](https://code.visualstudio.com/docs) | Visual Studio Code Tutorial |
 5| [Emmet Tutorial](https://docs.emmet.io/)| Emmet Tutorial |
 6|[Edit Config](https://editorconfig.org/) | Coding Style Tutorial |
 
