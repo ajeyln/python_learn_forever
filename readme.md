@@ -9,9 +9,9 @@ These informations help me to improve my python scripts standards and some conce
 
 The Repository contains the following folders
 
-[x] Panadas -  Python Module for working with Data frames and The folder contains my notes and exercises. <br />
+[x] Panadas Python Module for working with Data frames and The folder contains my notes and exercises. <br />
 [x] pep8 -  This folder containg the guidelines and best practices on how to write Python code <br />
-[x] visual_studio_editor - This folder has a full set of information on visual studio editor, such as shortcuts,customization , snippets ,debugging,source control,live share and extensions <br />
+[x] visual_studio_editor - This folder has a full set of information on visual studio editor, such as shortcuts, customization etc.<br />
 [ ] Custom Moduling - <br />
 [ ] PDB - Python debugging <br />
 [ ] PYTHON ENVIRONMENT - concept and hands-on <br />
