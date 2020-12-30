@@ -1,0 +1,115 @@
+**** **************************operation.py***********************************
+D:\Python_Learning_Repository\learn_python_forever\custom_module>pylint operatio
+n.py
+************* Module operation
+operation.py:1:74: C0303: Trailing whitespace (trailing-whitespace)
+operation.py:2:53: C0303: Trailing whitespace (trailing-whitespace)
+operation.py:7:16: C0303: Trailing whitespace (trailing-whitespace)
+operation.py:22:0: C0325: Unnecessary parens after 'while' keyword (superfluous-
+parens)
+operation.py:30:0: C0325: Unnecessary parens after 'if' keyword (superfluous-par
+ens)
+operation.py:43:0: C0305: Trailing newlines (trailing-newlines)
+operation.py:5:0: W0105: String statement has no effect (pointless-string-statem
+ent)
+operation.py:6:0: C0103: Argument name "a" doesn't conform to snake_case naming
+style (invalid-name)
+operation.py:6:0: C0103: Argument name "b" doesn't conform to snake_case naming
+style (invalid-name)
+operation.py:6:0: C0116: Missing function or method docstring (missing-function-
+docstring)
+operation.py:10:0: W0105: String statement has no effect (pointless-string-state
+ment)
+operation.py:11:0: C0103: Argument name "a" doesn't conform to snake_case naming
+ style (invalid-name)
+operation.py:11:0: C0103: Argument name "b" doesn't conform to snake_case naming
+ style (invalid-name)
+operation.py:11:0: C0116: Missing function or method docstring (missing-function
+-docstring)
+operation.py:15:0: W0105: String statement has no effect (pointless-string-state
+ment)
+operation.py:16:0: C0103: Argument name "a" doesn't conform to snake_case naming
+ style (invalid-name)
+operation.py:16:0: C0103: Argument name "b" doesn't conform to snake_case naming
+ style (invalid-name)
+operation.py:16:0: C0116: Missing function or method docstring (missing-function
+-docstring)
+operation.py:20:0: W0105: String statement has no effect (pointless-string-state
+ment)
+operation.py:21:0: C0103: Argument name "a" doesn't conform to snake_case naming
+ style (invalid-name)
+operation.py:21:0: C0103: Argument name "b" doesn't conform to snake_case naming
+ style (invalid-name)
+operation.py:21:0: C0116: Missing function or method docstring (missing-function
+-docstring)
+operation.py:24:4: W0120: Else clause on loop without a break statement (useless
+-else-on-loop)
+operation.py:28:0: W0105: String statement has no effect (pointless-string-state
+ment)
+operation.py:29:0: C0103: Argument name "a" doesn't conform to snake_case naming
+ style (invalid-name)
+operation.py:29:0: C0116: Missing function or method docstring (missing-function
+-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 1.61/10 (previous run: 1.61/10, +0.00)
+
+
+
+
+
+****************************helper.py***************************************
+
+D:\Python_Learning_Repository\learn_python_forever\custom_module>pylint helper.p
+y
+************* Module helper
+helper.py:14:0: C0304: Final newline missing (missing-final-newline)
+helper.py:3:0: W0105: String statement has no effect (pointless-string-statement
+)
+helper.py:4:0: C0116: Missing function or method docstring (missing-function-doc
+string)
+helper.py:7:0: W0105: String statement has no effect (pointless-string-statement
+)
+helper.py:8:0: C0116: Missing function or method docstring (missing-function-doc
+string)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+
+
+D:\Python_Learning_Repository\learn_python_forever\custom_module>
+
+
+
+
+
+
+
+
+
+
+******************************src.py****************************************
+
+
+D:\Python_Learning_Repository\learn_python_forever\custom_module>pylint src.py
+************* Module src
+src.py:28:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens
+)
+src.py:10:0: W0105: String statement has no effect (pointless-string-statement)
+src.py:11:0: C0103: Argument name "m" doesn't conform to snake_case naming style
+ (invalid-name)
+src.py:11:0: C0103: Argument name "n" doesn't conform to snake_case naming style
+ (invalid-name)
+src.py:11:0: C0116: Missing function or method docstring (missing-function-docst
+ring)
+src.py:18:0: W0105: String statement has no effect (pointless-string-statement)
+src.py:19:0: C0116: Missing function or method docstring (missing-function-docst
+ring)
+src.py:30:4: W0120: Else clause on loop without a break statement (useless-else-
+on-loop)
+
+------------------------------------------------------------------
+Your code has been rated at 6.92/10 (previous run: 6.92/10, +0.00)
+
+
+
