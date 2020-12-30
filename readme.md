@@ -9,8 +9,8 @@ Based the priority Module and Techniques , I have created 4 folders
 
 * **BASIC**
 
-[x] PANDAS - 
-[x] PEP8 - The file is created based on the link [Naming Convesion ] (https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g)
+[x] PANDAS  <br />
+[x] PEP8 - The file is created based on the link [Naming Convesion](https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g) <br />
 [ ] Custom Moduling
 [ ] PDB - Python debugging <br />
 [ ] PYTHON ENVIRONMENT - concept and hands-on <br />
