@@ -1,48 +1,48 @@
-## MODULES and TECHNIQUES
-
-**BASIC**
-
-* PANDAS (module)
+<h1 align ="Center"> MODULES and TECHNIQUES </h1>
 
 
-* PEP8 -
-  [Guide] (https://pep8.org/)
-  [Naming Video] (https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g)
-  
-* PDB - Python debugging
+This repository containg the information about various types of Python Modules, Techniques, which may required for configuration of Web Development and Cloud Technology. <br />
 
+## Content
 
-* PYTHON ENVIRONMENT - concept and hands-on
+Based the priority Module and Techniques , I have created 4 folders 
 
-* PYLINT to imporve the code
+* **BASIC**
 
-* PYTEST (module) to unit-test the code
+[x] PANDAS - 
+[x] PEP8 - The file is created based on the link [Naming Convesion ] (https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g)
+[ ] Custom Moduling
+[ ] PDB - Python debugging <br />
+[ ] PYTHON ENVIRONMENT - concept and hands-on <br />
+[ ] PYLINT to imporve the code <br />
+[ ] PYTEST (module) to unit-test the code <br />
+[ ] FUNCTOOLS (module) HIGHER Order functions in python <br />
+[ ] LOGGING mechanism in Python <br />
+[ ] JSON <br />
+[ ] FLASK - for web development <br />
+[ ] REQUESTS  <br />
+[ ] DECORATORS in Python <br />
+[ ] PIPFILE
 
-* FUNCTOOLS (module) HIGHER Order functions in python
+* **ADVANCED**
 
-* LOGGING mechanism in Python
-
-* JSON
-
-* FLASK - for web development
-
-* REQUESTS 
-
-* DECORATORS in Python
-
-* PIPFILE
-
-**ADVANCED**
-
-* BOTO3
-
-* AWS POWER TOOLS ( later, not now)
+[ ]BOTO3<br />
+[ ]AWS POWER TOOLS ( later, not now)
 
 ## OTHERS
 
-* VS CODE (https://www.udemy.com/course/learn-visual-studio-code/) => please ask me for access !!
+[x] visual_studio_editor - The file is created based on the link[Visual Studio Code Tutorial](https://www.udemy.com/course/learn-visual-studio-code/learn/lecture/12524810#overview)
 
-* FRONT-END WEB : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY)
+[ ] FRONT-END WEB : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY)
  
 ## REFERENCES
+
 For Reference, Please find the link from [python Programming](https://edu.heibai.org/Expert_Python_Programming.pdf) by Tarek Ziadé.
+
+##  Useful Links
+
+| **Sl. No.** | **Link** | **Remarks** |
+----------|--------------|--------------
+1|[PEP8 Tutorial Guide] https://pep8.org/ | Guide for PEP8 |
+2| [Pandas Tuorial](https://www.youtube.com/watch?v=UB3DE5Bgfx4)| Pandas Fundamentals and Tutorial |
+
