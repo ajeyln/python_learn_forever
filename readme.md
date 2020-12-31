@@ -2,16 +2,42 @@
 
 ## Background
 
-This repository contains important Python Modules, Technique and information about Editors <br />
-These Modules, Techniques are identified for future references and updated with relative exercises to get Handson experience <br />
+Python is a programming language and has many concepts and modules. These are used for scripting, data science, and web development etc. <br />
+
+In this repository I have identified some important modules for future references <br />
+ 
+This will be constantly updated with relative exercises to get Handson experience <br />
 
 ## Content
 
 The Repository contains the following folders
 
-[x] panadas - Python Module for working with Data frames and The folder contains my notes and exercises. <br />
-[x] pep8 -  This folder containg the guidelines and best practices on how to write Python code <br />
-[x] visual_studio_editor - This folder has a full set of information on visual studio editor, such as shortcuts, customization etc.<br />
+###  **pandas** 
+
+Pandas is a Python Module for working with Data frames. The folder contains my notes and exercises for your reference.  <br>
+
+I have referred [Pandas Tutorial](https://www.journaldev.com/29055/python-pandas-module-tutorial#python-pandas-module) <br>
+
+The Module is very helpful to implement the algorithms of Data Sciecne and Machine Learning. <br>
+
+Also for better understanding,  I have solved some python puzzles from [101 Pandas Exercises for Data Analysis](https://www.machinelearningplus.com/python/101-pandas-exercises-python/) <br>
+
+### **PEP8** 
+PEP8 is a document that provides guidelines and best practices on how to write Python code.<br />
+
+I have created notes with help of the link [PEP-8 Tutorial](https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g) <br />
+
+This document gives coding conventions for the Python code comprising the standard library in the main Python distribution <br />
+
+
+###   **visual_studio_editor** 
+
+We need an IDE - [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment) for working with scripts, data and commands. <br>
+
+For our development work, I have chosen **Visual Studio Code Editor** from Microsoft for an IDE <br>
+
+*visual_studio_editor* folder contains my notes, which are prepared with reference from [Visual Studio Code Tutorial- Udemy](https://www.udemy.com/course/learn-visual-studio-code/) by James Quick
+
 [ ] custom_moduling - <br />
 [ ] pdb - Python debugging <br />
 [ ] python_enviornment - concept and hands-on <br />
