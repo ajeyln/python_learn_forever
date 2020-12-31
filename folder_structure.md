@@ -6,13 +6,13 @@
 	We store the Python Library files
 	
 2. **source** <br />
-	It store the source related file such as class etc.
+	It store the source related file such as class and also contains main script.
 	
 3. **test** <br />
 	This folder has test cases and test realted files
 	
 4. **resource** <br />
-	The folder contains Input, configuration for application
+	It contains the resources, which is required for application to work Eg: Input file, Configuration file etc..
 	
 5. **output** <br />
 	This folder has file which has logs information
@@ -21,8 +21,8 @@
 	these file contains all the information about to modules with/without version for execution.
 
 7. **pylint** <br />
-	This will show the result of python script, how good it is and displays the improvement area to make it better.
+	This file conatining results of linting python scripts.
 
 8. **pytest** <br />
-	This will test the entire scripts and displays whether the scripts are working or not.
+	This file contains results of tests of python scripts. 
 
