@@ -25,8 +25,8 @@ The Repository contains the following folders
 [ ] decorators in Python <br />
 [ ] pipfile <br />
 [ ] boto3<br />
-[ ] awa_power_tool ( later, not now)
-[ ] front_end_web : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY)
+[ ] awa_power_tool ( later, not now) <br />
+[ ] front_end_web : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY) <br />
  
 ## References
 
