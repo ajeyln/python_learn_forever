@@ -8,9 +8,13 @@ from helper import display_name
 from helper import display_greeting
 
 ''' This function will greets with your entered name and do the mathematical operations'''
-def oper_num(name_2, value_1, value_2):
+def oper_num():
     display_greeting()
+    name_2 = input("Please Enter Your name:")
     display_name(name_2)
+    print("Now we are going to start Mathematical Operations")
+    value_1 = int(input("Please Enter a Number:"))
+    value_2 = int(input("Please Enter another number:"))
     add_num(value_1,value_2)
     sub_num(value_1,value_2)
     mul_num(value_1,value_2)
@@ -22,8 +26,5 @@ def oper_num(name_2, value_1, value_2):
 
 
 if __name__ == '__main__':
-    name_2 = input("Please Enter Your name:")
-    value_1 = int(input("Please Enter a Number:"))
-    value_2 = int(input("Please Enter another number:"))
-    oper_num(name_2, value_1,value_2)
+    oper_num()
 
