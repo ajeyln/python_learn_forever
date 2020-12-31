@@ -1,6 +1,10 @@
 <h1 align ="Center"> Folder Strctures </h1>
 
-#### The file has information about the folder structures
+
+Folders help us to keep the files organized and separate <br />
+In order to keep the file oraganised, I want to systemize the folder in well manner <br />
+
+## This file contains the standarized folder information as follows: 
 
 1. **libraries** <br/>
 	We store the Python Library files
@@ -20,9 +24,15 @@
 6. **requirement.txt** <br /> 
 	these file contains all the information about to modules with/without version for execution.
 
-7. **pylint** <br />
+7. **pylint.txt** <br />
 	This file conatining results of linting python scripts.
 
-8. **pytest** <br />
+8. **pytest.txt** <br />
 	This file contains results of tests of python scripts. 
+
+9. **README.md** <br />
+	This file contains a brief information about the folder.
+
+10. **.gitignore** <br />
+	This file has some sensitive files , which should be ignore during gitupdate.
 
