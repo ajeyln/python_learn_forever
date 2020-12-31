@@ -2,35 +2,35 @@
 
 ## Background
 
-This repository contains the information about various Python modules, key-concepts and Editors <br />
-These informations help me to improve my python scripts standards and some concepts ease my work on the various concepts related to Web Development, Cloud Technology etc. <br />
+This repository contains important Python Modules, Technique and information about Editors <br />
+These Modules, Techniques are identified for future references and updated with relative exercises to get Handson experience <br />
 
 ## Content
 
 The Repository contains the following folders
 
-[x] Panadas Python Module for working with Data frames and The folder contains my notes and exercises. <br />
+[x] panadas - Python Module for working with Data frames and The folder contains my notes and exercises. <br />
 [x] pep8 -  This folder containg the guidelines and best practices on how to write Python code <br />
 [x] visual_studio_editor - This folder has a full set of information on visual studio editor, such as shortcuts, customization etc.<br />
-[ ] Custom Moduling - <br />
-[ ] PDB - Python debugging <br />
-[ ] PYTHON ENVIRONMENT - concept and hands-on <br />
-[ ] PYLINT to imporve the code <br />
-[ ] PYTEST (module) to unit-test the code <br />
-[ ] FUNCTOOLS (module) HIGHER Order functions in python <br />
-[ ] LOGGING mechanism in Python <br />
-[ ] JSON <br />
-[ ] FLASK - for web development <br />
-[ ] REQUESTS  <br />
-[ ] DECORATORS in Python <br />
-[ ] PIPFILE
-[ ] BOTO3<br />
-[ ] AWS POWER TOOLS ( later, not now)
-[ ] FRONT-END WEB : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY)
+[ ] custom_moduling - <br />
+[ ] pdb - Python debugging <br />
+[ ] python_enviornment - concept and hands-on <br />
+[ ] pylint - to imporve the code <br />
+[ ] pytest (module) to unit-test the code <br />
+[ ] functiontools (module) HIGHER Order functions in python <br />
+[ ] logging_mechanism_python <br />
+[ ] json <br />
+[ ] flask - for web development <br />
+[ ] request  <br />
+[ ] decorators in Python <br />
+[ ] pipfile <br />
+[ ] boto3<br />
+[ ] awa_power_tool ( later, not now)
+[ ] front_end_web : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY)
  
-## REFERENCES
+## References
 
-For Reference, Please find the link from [python Programming](https://edu.heibai.org/Expert_Python_Programming.pdf) by Tarek Ziadé.
+For reference, please find the link from [python Programming](https://edu.heibai.org/Expert_Python_Programming.pdf) by Tarek Ziadé.
 
 ##  Useful Links
 
