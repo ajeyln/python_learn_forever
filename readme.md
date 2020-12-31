@@ -38,7 +38,7 @@ For our development work, I have chosen **Visual Studio Code Editor** from Micro
 
 *visual_studio_editor* folder contains my notes, which are prepared with reference from [Visual Studio Code Tutorial- Udemy](https://www.udemy.com/course/learn-visual-studio-code/) by James Quick
 
-## To-Do
+## To-Dos
 [ ] custom_moduling - <br />
 [ ] pdb - Python debugging <br />
 [ ] python_enviornment - concept and hands-on <br />
