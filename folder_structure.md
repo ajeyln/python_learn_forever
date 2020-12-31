@@ -4,7 +4,7 @@
 Folders help us to keep the files organized and separate <br />
 In order to keep the file oraganised, I want to systemize the folder in well manner <br />
 
-## The standard folder structure and information as follows: 
+## The standard folders with information as follows: 
 
 1. **libraries** <br/>
 	We store the Python Library files
