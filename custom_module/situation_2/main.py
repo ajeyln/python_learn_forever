@@ -1,11 +1,11 @@
 ''' importing from customised file'''
-from operation import add_num
-from operation import sub_num
-from operation import mul_num
-from operation import div_num
-from operation import odd_even
-from helper import display_name
-from helper import display_greeting
+from libraries.operation import add_num
+from libraries.operation import sub_num
+from libraries.operation import mul_num
+from libraries.operation import div_num
+from libraries.operation import odd_even
+from libraries.helper import display_name
+from libraries.helper import display_greeting
 
 ''' This function will greets with your entered name and do the mathematical operations'''
 def oper_num():
