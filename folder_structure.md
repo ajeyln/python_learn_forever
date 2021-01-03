@@ -1,4 +1,4 @@
-<h1 align ="Center"> Folder Strctures </h1>
+# <align ="Center"> Folder Strcture
 
 
 Folders help us to keep the files organized and separate <br />
