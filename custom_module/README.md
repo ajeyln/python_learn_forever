@@ -28,13 +28,13 @@ b. **Relative Import** <br />
 	.(Single Dot) means the current folder, where main file kept.<br />
 	..(Double Dot) mean the foldera above than current folder.
 	
-### Based on the above type of imports in Python, I have kept the files in 3 different method as follows: <br />
+#### Based on the above type of imports in Python, I have kept the files in 3 different method as follows: <br />
 
    1. **Situation_1** <br /> 
    In this instnace, we kept source file(main.py) and libraries(operation.py and helper.py) in same file and trying to import source file from main file <br />
    we have imported the file using absolute import in this way
    '''python
-   # I wanted to access function add_num, odd_even from operation and display_name from helper file.
+   #### I wanted to access function add_num, odd_even from operation and display_name from helper file.
    from operation import add_num
    from operation import odd_even
    from helper import display_name
@@ -44,7 +44,7 @@ b. **Relative Import** <br />
    In this case, we kept libraries(operation.py and helper.py) in libraries folder and source file(main.py)out side and want to import source file from main file <br />
    we have imported the file using absolute path in this way
    '''python
-   # I wanted to access function sub_num, mul_num from operation and display_greeting from helper file.
+   #### I wanted to access function sub_num, mul_num from operation and display_greeting from helper file.
 	from libraries.operation import sub_num # as the fource file in libraries we need to start from libraries folder to acces function
 	from libraries.operation import mul_num
 	from libraries.helper import display_greeting
@@ -54,14 +54,14 @@ b. **Relative Import** <br />
    In this method, we kept libraries(operation.py and helper.py) in libraries folder and source file(main.py) in source folder and want to import source file from main file <br />
    we have imported the file in this way
    '''python
-   # we want to access libraries folder path, so we are importing sys module
+   #### we want to access libraries folder path, so we are importing sys module
    import sys 
    temp_list = str(__file__).split("/") # we are spliting current folder path
    temp_join = "/".join(temp_list[:-1]) # we need to execlude current file from path
    temp_con = (temp_join + "/../libraries") # we need to add libraries path to current file path excluding the current working file.
-   # as libraries file folder is the above the current file folder we need to use ..(double dot)
+   ##### as libraries file folder is the above the current file folder we need to use ..(double dot)
    sys.path.append(temp_con
-   # I wanted to access function add_num, odd_even from operation and display_name from helper file.
+   #### I wanted to access function add_num, odd_even from operation and display_name from helper file.
    from operation import add_num
    from operation import odd_even
    from helper import display_name
