@@ -1,4 +1,4 @@
-<h1 align="center">Customize Module </h1>
+<h1 align="center">Custom Module </h1>
 
 ## Introduction
 Python modules can get access to code from another module by importing the file/function using import method. <br />
@@ -66,3 +66,10 @@ b. **Relative Import** <br />
    from operation import odd_even
    from helper import display_name
    '''
+
+##  Useful Links
+
+| **Sl. No.** | **Link** | **Remarks** |
+----------|--------------|--------------
+1| [Sys path append module](https://www.youtube.com/watch?v=-aWN9FYfkFA&feature=youtu.be) | Tutorial to add file path
+2| [Jupyter Installation](https://www.youtube.com/watch?v=5z5nALNandM&feature=youtu.be) | System path and Changing Module Paths
