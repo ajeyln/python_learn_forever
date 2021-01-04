@@ -38,7 +38,7 @@ For our development work, I have chosen **Visual Studio Code Editor** from Micro
 
 *visual_studio_editor* folder contains my notes, which are prepared with reference from [Visual Studio Code Tutorial- Udemy](https://www.udemy.com/course/learn-visual-studio-code/) by James Quick
 
-###  ***custom_moduling**
+###  **custom_moduling**
 
 Python modules can get access to code from another module by importing the file/function using import method. <br />
 The import statement is the most common way of invoking the import machinery <br />
