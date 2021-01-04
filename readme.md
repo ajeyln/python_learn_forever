@@ -38,19 +38,29 @@ For our development work, I have chosen **Visual Studio Code Editor** from Micro
 
 *visual_studio_editor* folder contains my notes, which are prepared with reference from [Visual Studio Code Tutorial- Udemy](https://www.udemy.com/course/learn-visual-studio-code/) by James Quick
 
+###  ***custom_moduling**
+
+Python modules can get access to code from another module by importing the file/function using import method. <br />
+The import statement is the most common way of invoking the import machinery <br />
+
+There are mainly two types(Absolute & Relative) of imports in Python
+
+Based on the types of imports in Python, I have created 3 situation in this folder and imported libraries files from source file.
+
+The note created based on the link [Absolute and Relative imports](https://www.youtube.com/watch?v=ZBYDbAQKs3I)
+
 ## To-Dos
-[ ] custom_moduling - <br />
-[ ] pdb - Python debugging <br />
-[ ] python_enviornment - concept and hands-on <br />
 [ ] pylint - to imporve the code <br />
-[ ] pytest (module) to unit-test the code <br />
-[ ] functiontools (module) HIGHER Order functions in python <br />
+[ ] python_enviornment - concept and hands-on <br />
+[ ] pytest (module) to unit-test the code <br />  
+[ ] pdb - Python debugging <br />
 [ ] logging_mechanism_python <br />
+[ ] functiontools (module) HIGHER Order functions in python <br />
 [ ] json <br />
-[ ] flask - for web development <br />
-[ ] request  <br />
-[ ] decorators in Python <br />
 [ ] pipfile <br />
+[ ] decorators in Python <br />
+[ ] request  <br />
+[ ] flask - for web development <br />
 [ ] boto3<br />
 [ ] awa_power_tool ( later, not now) <br />
 [ ] front_end_web : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY) <br />
