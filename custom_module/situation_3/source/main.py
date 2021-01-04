@@ -1,10 +1,13 @@
-''' importing from customised file'''
+''' In order to import custom files from libraries folder, we need to reach libraries folder from source folder'''
 import sys
-temp_list = str(__file__).split("/")
-temp_join = "/".join(temp_list[:-1])
-temp_con = (temp_join + "/../libraries")
+temp_list = str(__file__).split("/") # Spliting current folder path
+temp_join = "/".join(temp_list[:-1]) # joining the file path except the current file
+'''adding libraries folder path to the file path 
+(as the libraries folder is above the current folder we need to add two dots)'''
+temp_con = (temp_join + "/../libraries") 
 sys.path.append(temp_con)
 
+''' importing from custom files'''
 from operation import add_num
 from operation import sub_num
 from operation import mul_num
