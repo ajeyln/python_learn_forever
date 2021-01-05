@@ -1,0 +1,14 @@
+************* Module main
+main.py:21:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+main.py:30:0: C0305: Trailing newlines (trailing-newlines)
+main.py:10:0: W0105: String statement has no effect (pointless-string-statement)
+main.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+main.py:23:4: W0120: Else clause on loop without a break statement (useless-else-on-loop)
+
+------------------------------------------------------------------
+Your code has been rated at 7.92/10 (previous run: 7.92/10, +0.00)
+
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

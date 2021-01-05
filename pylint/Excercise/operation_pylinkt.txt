@@ -1,0 +1,35 @@
+************* Module operation
+operation.py:1:74: C0303: Trailing whitespace (trailing-whitespace)
+operation.py:2:53: C0303: Trailing whitespace (trailing-whitespace)
+operation.py:7:16: C0303: Trailing whitespace (trailing-whitespace)
+operation.py:22:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+operation.py:30:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+operation.py:43:0: C0305: Trailing newlines (trailing-newlines)
+operation.py:5:0: W0105: String statement has no effect (pointless-string-statement)
+operation.py:6:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+operation.py:6:0: C0103: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+operation.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+operation.py:10:0: W0105: String statement has no effect (pointless-string-statement)
+operation.py:11:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+operation.py:11:0: C0103: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+operation.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+operation.py:15:0: W0105: String statement has no effect (pointless-string-statement)
+operation.py:16:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+operation.py:16:0: C0103: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+operation.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+operation.py:20:0: W0105: String statement has no effect (pointless-string-statement)
+operation.py:21:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+operation.py:21:0: C0103: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+operation.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+operation.py:24:4: W0120: Else clause on loop without a break statement (useless-else-on-loop)
+operation.py:28:0: W0105: String statement has no effect (pointless-string-statement)
+operation.py:29:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+operation.py:29:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-------------------------------------------------------------------
+Your code has been rated at 1.61/10 (previous run: 10.00/10, -8.39)
+
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

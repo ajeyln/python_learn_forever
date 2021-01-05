@@ -1,0 +1,14 @@
+************* Module helper
+helper.py:14:0: C0304: Final newline missing (missing-final-newline)
+helper.py:3:0: W0105: String statement has no effect (pointless-string-statement)
+helper.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+helper.py:7:0: W0105: String statement has no effect (pointless-string-statement)
+helper.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 10.00/10, -5.00)
+
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
