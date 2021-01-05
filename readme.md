@@ -38,7 +38,7 @@ For our development work, I have chosen **Visual Studio Code Editor** from Micro
 
 *visual_studio_editor* folder contains my notes, which are prepared with reference from [Visual Studio Code Tutorial- Udemy](https://www.udemy.com/course/learn-visual-studio-code/) by James Quick
 
-###  **custom_moduling**
+###  **custom_module**
 
 Python modules can get access to code from another module by importing the file/function using import method. <br />
 The import statement is the most common way of invoking the import machinery <br />
@@ -49,8 +49,16 @@ Based on the types of imports in Python, I have created 3 situation in this fold
 
 The note created based on the link [Absolute and Relative imports](https://www.youtube.com/watch?v=ZBYDbAQKs3I)
 
+### **pylint** <br />
+
+Pylint is a tool that checks for errors in Python code, tries to enforce a coding standard. <br>
+It can also look for certain type errors and recommend suggestions about how particular blocks can be refactored. <br />
+The code is given an overall mark, based on the number and severity of the warnings and errors
+
+I have referred [Pylint Tutorial Guide](https://docs.pylint.org/en/1.6.0/tutorial.html) <br>
+
+The folder contains my notes and exercises for your reference.  <br />
 ## To-Dos
-[ ] pylint - to imporve the code <br />
 [ ] python_enviornment - concept and hands-on <br />
 [ ] pytest (module) to unit-test the code <br />  
 [ ] pdb - Python debugging <br />
