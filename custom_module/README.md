@@ -90,4 +90,4 @@ Eg 2:
 | **Sl. No.** | **Link** | **Remarks** |
 ----------|--------------|--------------
 1| [Sys path append module](https://www.youtube.com/watch?v=-aWN9FYfkFA&feature=youtu.be) | Tutorial to add file path
-2| [Jupyter Installation](https://www.youtube.com/watch?v=5z5nALNandM&feature=youtu.be) | System path and Changing Module Paths
+2| [System path and Changing Module Paths](https://www.youtube.com/watch?v=5z5nALNandM&feature=youtu.be) | System path and Changing Module Paths
