@@ -2,27 +2,31 @@
 
 ## Table of Content
 
-The Repository contains the following folders
+* [Background](#Background)
+* [Content](#content)
+    + [pandas](#pandas)
+    + [PEP8](#PEP8)
+    + [visual_studio_editor](#visual_studio_editor)
+    + [custom_module](#custom_module)
+    + [pylint](#pylint)
+    + [python_enviornment](#python_enviornment)
+    + [pytest](#pytest)
+    + [pdb](#pdb)
+    + [logging_mechanism_python](#logging_mechanism_python)
+    + [functiontools](#functiontools)
+    + [json](#json)
+    + [pipfile](#pipfile)
+    + [decorators](#decorators)
+    + [request](#request)
+    + [flask](#flask)
+    + [boto3](#boto3)
+    + [awa_power_tool](#awa_power_tool)
+    + [front_end_web](#front_end_web)
+* [Reference](#Reference)
+* [Useful Links](#useful_links)
+* [Contact](#contact)
 
-+ [pandas](#pandas)
-+ [PEP8](#PEP8)
-+ [visual_studio_editor](#visual_studio_editor)
-+ [custom_module](#custom_module)
-+ [pylint](#pylint)
-+ [python_enviornment](#python_enviornment)
-+ [pytest](#pytest)
-+ [pdb](#pdb)
-+ [logging_mechanism_python](#logging_mechanism_python)
-+ [functiontools](#functiontools)
-+ [json](#json)
-+ [pipfile](#pipfile)
-+ [decorators](#decorators)
-+ [request](#request)
-+ [flask](#flask)
-+ [boto3](#boto3)
-+ [awa_power_tool](#awa_power_tool)
-+ [front_end_web](#front_end_web)
-## Background
+## <a name="Background"></a>Background
 
 Python is a programming language and has many concepts and modules. These are used for scripting, data science, and web development etc. <br />
 
@@ -30,7 +34,7 @@ In this repository I have identified some important modules for future reference
  
 This will be constantly updated with relative exercises to get Handson experience <br />
 
-## Content
+## <a name="content"></a>Content
 
 ### <a name="pandas"></a>**pandas** 
 
@@ -127,11 +131,11 @@ The folder contains my notes and exercises for your reference.  <br />
 [ ] awa_power_tool ( later, not now) <br />
 [ ] front_end_web : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY) <br />
  
-## References
+## <a name="Reference"></a>References
 
 For reference, please find the link from [python Programming](https://edu.heibai.org/Expert_Python_Programming.pdf) by Tarek Ziadé.
 
-##  Useful Links
+## <a name="useful_links"></a>Useful Links
 
 | **Sl. No.** | **Link** | **Remarks** |
 ----------|--------------|--------------
@@ -146,7 +150,7 @@ For reference, please find the link from [python Programming](https://edu.heibai
 9| [Pylint Tuorial](https://www.youtube.com/watch?v=C-gEQdGVXbk)| Pylint Tutorial |
 10|[Pylint Tutorial Guide](https://docs.pylint.org/en/1.6.0/tutorial.html) | Begginer's Guide for Pylint |
 
-<h2>Contact :</h2>
+<h2><a name="contact"></a>Contact :</h2>
 
 For any feedback, queries Please send Email to ajeyanayak@gmail.com:star2:
 
