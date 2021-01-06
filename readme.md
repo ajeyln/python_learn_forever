@@ -12,7 +12,26 @@ This will be constantly updated with relative exercises to get Handson experienc
 
 The Repository contains the following folders
 
-###  **pandas** 
++ [pandas](#pandas)
++ [PEP8](#PEP8)
++ [visual_studio_editor](#visual_studio_editor)
++ [custom_module](#custom_module)
++ [pylint](#pylint)
++ [python_enviornment](#python_enviornment)
++ [pytest](#pytest)
++ [pdb](#pdb)
++ [logging_mechanism_python](#logging_mechanism_python)
++ [functiontools](#functiontools)
++ [json](#json)
++ [pipfile](#pipfile)
++ [decorators](#decorators)
++ [request](#request)
++ [flask](#flask)
++ [boto3](#boto3)
++ [awa_power_tool](#awa_power_tool)
++ [front_end_web](#front_end_web)
+
+### <a name="pandas"></a>**pandas** 
 
 Pandas is a Python Module for working with Data frames. The folder contains my notes and exercises for your reference.  <br>
 
@@ -22,15 +41,14 @@ The Module is very helpful to implement the algorithms of Data Sciecne and Machi
 
 Also for better understanding,  I have solved some python puzzles from [101 Pandas Exercises for Data Analysis](https://www.machinelearningplus.com/python/101-pandas-exercises-python/) <br>
 
-### **PEP8** 
+### <a name="PEP8"></a>**PEP8** 
 PEP8 is a document that provides guidelines and best practices on how to write Python code.<br />
 
 I have created notes with help of the link [PEP-8 Tutorial](https://www.youtube.com/watch?v=Sm0wwmEwqpI&fbclid=IwAR1Q78KGJyPS1arHwc0NGT6LFX1mYiZ54Km5jFhaAyCM6PCQXLnhcTr_F6g) <br />
 
 This document gives coding conventions for the Python code comprising the standard library in the main Python distribution <br />
 
-
-###   **visual_studio_editor** 
+### <a name="visual_studio_editor"></a>**visual_studio_editor** 
 
 We need an IDE - [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment) for working with scripts, data and commands. <br>
 
@@ -38,7 +56,7 @@ For our development work, I have chosen **Visual Studio Code Editor** from Micro
 
 *visual_studio_editor* folder contains my notes, which are prepared with reference from [Visual Studio Code Tutorial- Udemy](https://www.udemy.com/course/learn-visual-studio-code/) by James Quick
 
-###  **custom_module**
+### <a name="custom_module"></a>**custom_module**
 
 Python modules can get access to code from another module by importing the file/function using import method. <br />
 The import statement is the most common way of invoking the import machinery <br />
@@ -49,7 +67,7 @@ Based on the types of imports in Python, I have created 3 situation in this fold
 
 The note created based on the link [Absolute and Relative imports](https://www.youtube.com/watch?v=ZBYDbAQKs3I)
 
-### **pylint** <br />
+### <a name="pylint"></a>**pylint**
 
 Pylint is a tool that checks for errors in Python code, tries to enforce a coding standard. <br>
 It can also look for certain type errors and recommend suggestions about how particular blocks can be refactored. <br />
@@ -58,6 +76,41 @@ The code is given an overall mark, based on the number and severity of the warni
 I have referred [Pylint Tutorial Guide](https://docs.pylint.org/en/1.6.0/tutorial.html) <br>
 
 The folder contains my notes and exercises for your reference.  <br />
+
+### <a name="python_enviornment"></a>**python_enviornment**<br />
+
+### <a name="pytest"></a>**pytest**<br />  
+
+### <a name="pdb"></a>**pdb**<br />
+### <a name="logging_mechanism_python"></a>**logging_mechanism_python**<br />
+
+### <a name="functiontools"></a>**functiontools**<br />
+
+### <a name="json"></a>**json**<br />
+
+### <a name="pipeline"></a>**pipfile**<br />
+
+### <a name="decorators"></a>**decorators**<br />
+
+### <a name="request"></a>**request**<br />
+
+### <a name="flask"></a>**flask**<br />
+
+### <a name="boto3"></a>**boto3**<br />
+
+
+
+### <a name="awa_power_tool"></a>**awa_power_tool ( later, not now)**
+
+
+
+
+### <a name ="front_end_web"></a>**front_end_web**
+
+
+
+
+
 ## To-Dos
 [ ] python_enviornment - concept and hands-on <br />
 [ ] pytest (module) to unit-test the code <br />  
