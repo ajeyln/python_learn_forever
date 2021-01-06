@@ -1,14 +1,6 @@
 <h1 align ="Center"> MODULES and TECHNIQUES </h1>
 
-## Background
-
-Python is a programming language and has many concepts and modules. These are used for scripting, data science, and web development etc. <br />
-
-In this repository I have identified some important modules for future references <br />
- 
-This will be constantly updated with relative exercises to get Handson experience <br />
-
-## Content
+## Table of Content
 
 The Repository contains the following folders
 
@@ -30,6 +22,15 @@ The Repository contains the following folders
 + [boto3](#boto3)
 + [awa_power_tool](#awa_power_tool)
 + [front_end_web](#front_end_web)
+## Background
+
+Python is a programming language and has many concepts and modules. These are used for scripting, data science, and web development etc. <br />
+
+In this repository I have identified some important modules for future references <br />
+ 
+This will be constantly updated with relative exercises to get Handson experience <br />
+
+## Content
 
 ### <a name="pandas"></a>**pandas** 
 
@@ -140,6 +141,10 @@ For reference, please find the link from [python Programming](https://edu.heibai
 4| [Visual Studio](https://code.visualstudio.com/docs) | Visual Studio Code Tutorial |
 5| [Emmet Tutorial](https://docs.emmet.io/)| Emmet Tutorial |
 6|[Edit Config](https://editorconfig.org/) | Coding Style Tutorial |
+7| [Sys path append module](https://www.youtube.com/watch?v=-aWN9FYfkFA&feature=youtu.be) | Tutorial to add file path
+8| [System path and Changing Module Paths](https://www.youtube.com/watch?v=5z5nALNandM&feature=youtu.be) | System path and Changing Module Paths|
+9| [Pylint Tuorial](https://www.youtube.com/watch?v=C-gEQdGVXbk)| Pylint Tutorial |
+10|[Pylint Tutorial Guide](https://docs.pylint.org/en/1.6.0/tutorial.html) | Begginer's Guide for Pylint |
 
 <h2>Contact :</h2>
 
