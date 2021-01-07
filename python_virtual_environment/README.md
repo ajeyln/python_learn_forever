@@ -12,7 +12,7 @@
     + [Deactivation](#deactivation)
 * [Useful Links](#useful)
 
-## <a name="Introduction></a> Introduction
+## <a name="Introduction"></a> Introduction
 
 Python applications will often use packages and modules that don’t come as part of the standard library. 
 Applications will sometimes need a specific version of a library, That's why we need Python virtual enviornment <br />
