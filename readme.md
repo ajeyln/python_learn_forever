@@ -122,10 +122,7 @@ The folder contains installation steps,and an exercise for your reference.  <br 
 
 
 
-
-
 ## To-Dos
-[ ] python_virtual_environment - concept and hands-on <br />
 [ ] pytest (module) to unit-test the code <br />  
 [ ] pdb - Python debugging <br />
 [ ] logging_mechanism_python <br />
