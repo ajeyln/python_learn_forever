@@ -53,7 +53,7 @@ After activation of virtual environment the command prompt prefixed with the nam
 
 ### <a name="pip"></a>Managing Packages with pip
 
-we can install, check and remove packages using pip. By default pip will install packages from the Python Package <br />
+* we can install, check and remove packages using pip. By default pip will install packages from the Python Package <br />
 
 The following command are used to check packages in Virtual enviroment
 
@@ -63,13 +63,13 @@ The following command are used to check packages in Virtual enviroment
 |pip install | to install packages |
 |pip freeze | list of the installed packages |
 
-We can maintain what python packages are required to run the scripts in virtual environment in requirements.txt by this command : <br />
+* We can maintain what python packages are required to run the scripts in virtual environment in requirements.txt by this command : <br />
 ```pip freeze > requirements.txt```
 
-when we received requirements.txt to install packages in virtual packages to run some python packages by using this command: <br />
+* when we received requirements.txt to install packages in virtual packages to run some python packages by using this command: <br />
 ```pip install -r requirements.txt```
 
-If we want to check what we installed in virtual environment by using the command: <br />
+* If we want to check what we installed in virtual environment by using the command: <br />
 ```pip list --local```
 
 ### <a name="deactivation"></a>Deactivation
