@@ -9,7 +9,7 @@
     + [visual_studio_editor](#visual_studio_editor)
     + [custom_module](#custom_module)
     + [pylint](#pylint)
-    + [python_enviornment](#python_enviornment)
+    + [python_virtual_environment](#python_virtual_environment)
     + [pytest](#pytest)
     + [pdb](#pdb)
     + [logging_mechanism_python](#logging_mechanism_python)
@@ -82,7 +82,15 @@ I have referred [Pylint Tutorial Guide](https://docs.pylint.org/en/1.6.0/tutoria
 
 The folder contains my notes and exercises for your reference.  <br />
 
-### <a name="python_enviornment"></a>**python_enviornment**<br />
+### <a name="python_virtual_environment"></a>**python_virtual_environment**<br />
+
+Python applications will often use packages and modules that don’t come as part of the standard library. 
+Applications will sometimes need a specific version of a library, That's why we need Python virtual enviornment <br />
+Python virtual environments is to create an isolated environment for Python projects.This means that each project can have its own dependencies <br />
+
+I have referred [Python Virtual Enviroment Tutorial](https://www.youtube.com/watch?v=APOPm01BVrk)<br>
+
+The folder contains installation steps,and an exercise for your reference.  <br />
 
 ### <a name="pytest"></a>**pytest**<br />  
 
@@ -117,7 +125,7 @@ The folder contains my notes and exercises for your reference.  <br />
 
 
 ## To-Dos
-[ ] python_enviornment - concept and hands-on <br />
+[ ] python_virtual_environment - concept and hands-on <br />
 [ ] pytest (module) to unit-test the code <br />  
 [ ] pdb - Python debugging <br />
 [ ] logging_mechanism_python <br />
@@ -149,6 +157,8 @@ For reference, please find the link from [python Programming](https://edu.heibai
 8| [System path and Changing Module Paths](https://www.youtube.com/watch?v=5z5nALNandM&feature=youtu.be) | System path and Changing Module Paths|
 9| [Pylint Tuorial](https://www.youtube.com/watch?v=C-gEQdGVXbk)| Pylint Tutorial |
 10|[Pylint Tutorial Guide](https://docs.pylint.org/en/1.6.0/tutorial.html) | Begginer's Guide for Pylint |
+11| [Python Virtual Enviroment Guide](https://docs.python.org/3/tutorial/)| Python Virtual Environment Guide |
+12|[Python Virtual Enviroment Tutorial](https://www.youtube.com/watch?v=APOPm01BVrk) | Python Virtual Enviroment Tutorial |
 
 <h2><a name="contact"></a>Contact :</h2>
 
