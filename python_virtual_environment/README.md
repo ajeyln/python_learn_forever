@@ -25,13 +25,13 @@ Python virtual environments is to create an isolated environment for Python proj
 We can installl virtual environment using the command: <br />
 ```pip install virtualenv```
 
-### <a name="directory"></a>**Creating new directory to work with virtual environment**
+### <a name="directory"></a>Creating new directory to work with virtual environment
 
 The below in command line to create directory and moving inside directory<br />
 ```mkdir python-virtual-environments``` <br />
 ```cd python-virtual-environments```
 
-### <a name="creation"></a>**Creating Virtual Environment**
+### <a name="creation"></a>Creating Virtual Environment
 
 The module used to create and manage virtual environments is called venv. It will usually install most recent version of Python. <br />
 If we want multiple versions of Python on your system, we can select a specific Python version we need to mention during creation of virtual envieonment <br />
@@ -39,16 +39,19 @@ If we want multiple versions of Python on your system, we can select a specific 
 A sample command to create Virtual environment is : <br />
 ``` python3 -m venv test_env ```
 
+when we want to install all packages/module same as in system while creating virtual enviornment <br />
+```python -m venv test_env --system--site--packages```
+
 This will create the test_env directory if it doesn’t exist, and also create directories inside it containing a copy of the Python interpreter, the standard library, and various supporting files. <br />
 
-### <a name="activation"></a>**Activation**
+### <a name="activation"></a>Activation
 
 We can activate Virtual Enviornment using the command : <br />
 ```test_env/scripts/activate.bat```
 
 After activation of virtual environment the command prompt prefixed with the name of virtual enviornment.
 
-### <a name="pip"></a>**Managing Packages with pip**
+### <a name="pip"></a>Managing Packages with pip
 
 we can install, check and remove packages using pip. By default pip will install packages from the Python Package <br />
 
@@ -66,7 +69,10 @@ We can maintain what python packages are required to run the scripts in virtual 
 when we received requirements.txt to install packages in virtual packages to run some python packages by using this command: <br />
 ```pip install -r requirements.txt```
 
-### <a name="deactivation"></a>**Deactivation**
+If we want to check what we installed in virtual environment by using the command: <br />
+```pip list --local```
+
+### <a name="deactivation"></a>Deactivation
 
 we can deactivate the virtual environment using the command in command line <br />
 ```deactivate```
