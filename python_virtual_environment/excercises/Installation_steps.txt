@@ -1,0 +1,13 @@
+The following steps for creation, Activation and deactivation of  new virtual environment 
+
+Step 1 :We can installl virtual environment using the command:     pip install virtualenv
+
+Step 2 : Creating Virtual environment(test_env)  :   python3 -m venv test_env
+
+Step 3:  Activation of  Virtual environment : test_env\scripts\activate.bat
+
+Step 4 : Install the modules using requirements file :  pip install -r requirements.txt
+
+Step 5 :  Move the scripts to virtual  enviornment and execute the scripts
+
+Step 6: Deactivate the virtual environment, If virtual environment is no required : deactive
