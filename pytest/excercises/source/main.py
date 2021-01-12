@@ -9,6 +9,7 @@ from helper import display_greeting
 import numpy as np
 import pandas as pd
 from leastchar import count_char
+import platform
 
 '''This function will greets with your entered name, do the mathematical operations and find the least used character in given string'''
 def oper_num():
@@ -28,6 +29,8 @@ def oper_num():
     odd_even(value_2)
     my_str = input("Enter an string with spaces: ")
     count_char(my_str)
+    path = platform.system()
+    find_os(path)
 
 
 if __name__ == '__main__':

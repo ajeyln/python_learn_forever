@@ -1,5 +1,5 @@
 # Finding count of charecters in string
-
+''' importing modules'''
 import pandas as pd
 
 def count_char(name_1):
