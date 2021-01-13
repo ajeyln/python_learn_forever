@@ -5,17 +5,17 @@ and also it shows, whether first number is odd or even'''
 '''This function will add two integer numbers'''
 def add_num(a,b):
     temp = a + b 
-    return "{}".format(temp)
+    return temp
 
 '''This function will subtract two integer numbers'''
 def sub_num(a,b):
     temp = a - b
-    return "{}".format(temp)
+    return temp
 
 '''This function will multiply two integer numbers'''
 def mul_num(a,b):
     temp = a * b
-    return "{}".format(temp)
+    return temp
 
 '''This function will divide two integer numbers'''
 def div_num(a,b):
@@ -23,14 +23,14 @@ def div_num(a,b):
         b = int(input("Please Enter a number other than zero:"))
     else:
         temp = a / b
-        return "{}".format(temp)
+        return temp
 
 '''This function will check the given number is even or odd'''
 def odd_even(a):
     if(a % 2 == 0):
-        return "{0} is even". format(a)
+        return "even"
     else:
-        print("{0} is odd". format(a))
+        return "odd"
 
 if __name__ == "__main__":
     x = int(input("Please Enter a Number:"))
