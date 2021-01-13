@@ -68,6 +68,28 @@ This error is due extra while spaces and can be solved by deleting those white s
 + Error: **Missing module docstring (missing-docstring)**
 This message is because there isn't a docstring in python script. This can be solved by writing docstring.
 
+### Disabling/Enabling the pylint error
+
+If we want ignore some error messages for specific line or block during execution of pylint <br />
+we can do this by disabling before starting the block : <br />
+```pylint: disable:<error message>```
+
+we need to enable these error messages, after specifi line or block is reached.
+
+```python
+# pylint: disable=no-member
+class C123:
+    def __init__(self):
+        self.foo_x = self.bar_x
+# pylint: enable=no-member
+
+class C456:
+    def __init__(self):
+        self.foo_x = self.bar_x
+```
+In the above the example, If we want to create class but we don't want to initilize any object <br />
+to avoid error <no-member> we need to mention disble in the block, similarly we need to enable at the end of block
+
 ##  Useful Links
 
 | **Sl. No.** | **Link** | **Remarks** |
