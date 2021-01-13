@@ -92,7 +92,11 @@ I have referred [Python Virtual Enviroment Tutorial](https://www.youtube.com/wat
 
 The folder contains installation steps,and an exercise for your reference.  <br />
 
-### <a name="pytest"></a>**pytest**<br />  
+### <a name="pytest"></a>**pytest**<br />
+
+pytest is a mature full-featured Python testing tool that helps us to write better programs.<br />
+The pytest framework makes it easy to write small tests, yet scales to support complex functional
+testing for applications and libraries.<br />
 
 ### <a name="pdb"></a>**pdb**<br />
 ### <a name="logging_mechanism_python"></a>**logging_mechanism_python**<br />
