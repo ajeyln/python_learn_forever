@@ -17,7 +17,6 @@ from libraries.operation import odd_even
 #pylint: enable=wrong-import-position
 #pylint: enable=import-error
 
-
 def test_add_num():
     ''' to test add_num function in libraries.operation file'''
     num_1 = 4
