@@ -63,18 +63,28 @@ we need to just run the pytest command: <br />
 If we want torun tests only from a specific file, we can use py.test <filename><br />
 ```py.test test_sample1.py```
 
-### <a name="fixture"></a> Pytest fixtures
+### <a name="code_coverage"></a> Pytest Code Coverage
 
-Fixtures are used when we want to run some code before every test method. <br />
-So instead of repeating the same code in every test we define fixtures. <br /> 
-Usually, fixtures are used to initialize database connections, pass the base , etc. <br />
+Code coverage is a software testing metric that determines the number of lines of code that is successfully validated under a test procedure. <br />
+It helps in analyzing how comprehensively a software is verified.
 
-A method is marked as a fixture by marking with
++ We can installe the Pytest coverage using the command: <br />
+```pip install pytest-cov```
 
-```@pytest.fixture```
++ If we want check the code coverage Pytest, we can use the following command: <br />
+```pytest --cov= <source> test ```
+<br />here source is the set of files or a file, which we want to check the code coverage
+
++ If we need Pytest Code Coverage in html format, we can use the following command: <br />
+```Pytest --cov-report html --cov=<source> test```
+<br /> one we are running this comman,It will generate a folder with the name "htmlcov" <br />
+It has html formatted file with file name, We can open on browser and we can check the code coverage the perticular file.
 
 ## <a name="useful"></a> Useful Links
 
 | **Sl. No.** | **Link** | **Remarks** |
 ----------|--------------|--------------
 1| [Pytest Tutorial](https://www.youtube.com/watch?v=byaxg00Gf9I&feature=emb_logo)| Pytest Tutorial |
+2| [Pytest Tutorial - 2](https://www.tutorialspoint.com/pytest/index.htm) | Pytest Tutorial |
+3 | [Pytest Tutorial - 3](https://docs.pytest.org/en/stable/)| Pytest Tutorial|
+4| [Pytest Code Coverage](https://pypi.org/project/pytest-cov/)| Pytest Code Coverage Tutorial
