@@ -1,0 +1,18 @@
+************* Module test_operation
+test_operation.py:7:0: W1401: Anomalous backslash in string: '\.'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+test_operation.py:7:3: W1401: Anomalous backslash in string: '\l'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+test_operation.py:10:0: E0401: Unable to import 'operation' (import-error)
+test_operation.py:10:0: C0413: Import "from operation import add_num" should be placed at the top of the module (wrong-import-position)
+test_operation.py:11:0: E0401: Unable to import 'operation' (import-error)
+test_operation.py:11:0: C0413: Import "from operation import sub_num" should be placed at the top of the module (wrong-import-position)
+test_operation.py:12:0: E0401: Unable to import 'operation' (import-error)
+test_operation.py:12:0: C0413: Import "from operation import div_num" should be placed at the top of the module (wrong-import-position)
+test_operation.py:13:0: E0401: Unable to import 'operation' (import-error)
+test_operation.py:13:0: C0413: Import "from operation import mul_num" should be placed at the top of the module (wrong-import-position)
+test_operation.py:14:0: E0401: Unable to import 'operation' (import-error)
+test_operation.py:14:0: C0413: Import "from operation import odd_even" should be placed at the top of the module (wrong-import-position)
+test_operation.py:43:11: C0122: Comparison should be odd_even(num_9) == '4 is even' (misplaced-comparison-constant)
+
+--------------------------------------------------------------------
+Your code has been rated at -1.00/10 (previous run: -1.00/10, +0.00)
+
