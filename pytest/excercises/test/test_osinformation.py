@@ -16,14 +16,10 @@ from libraries.osinformation import find_os_path_separator
 
 def test_find_os_path_separator(monkeypatch):
     ''' this function is to check the os information'''
-    def find_os():
-        return "Linux"
-    monkeypatch.setattr(platform, "system", find_os)
+    monkeypatch.setattr(platform, "system", lambda : "Linux")
     expected_value = "/"
     assert expected_value == find_os_path_separator()
 
-    def find_windows_os():
-        return "Windows"
-    monkeypatch.setattr(platform, "system", find_windows_os)
+    monkeypatch.setattr(platform, "system", lambda : "Windows")
     expected_value = "\\"
     assert expected_value == find_os_path_separator()

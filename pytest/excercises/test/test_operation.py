@@ -3,6 +3,7 @@
 ''' Set up for importing file'''
 import os
 import sys
+import pytest
 sys.path.append(os.getcwd())
 
 #pylint: disable=wrong-import-position
@@ -38,27 +39,12 @@ def test_mul_num():
     expected_value = 80
     assert expected_value == mul_num(num_5, num_6)
 
-def test_div_num():
+@pytest.mark.parametrize("num_7, num_8, expected_value",[(9, 2, 4.5), (15, 0, None)])
+def test_div_num(num_7, num_8, expected_value):
     ''' to test div_num function in libraries.operation file'''
-    num_7 = 9
-    num_8 = 2
-    expected_value = 4.5
     assert expected_value == div_num(num_7, num_8)
 
-def test_zero_div():
-    ''' to test div_num function in libraries.operation file'''
-    num_9 = 9
-    num_10 = 0
-    expected_value = None
-    assert expected_value == div_num(num_9, num_10)
-
-def test_even_check():
+@pytest.mark.parametrize("num_11, expected_value",[(4, "even"),(7, "odd")])
+def test_odd_even(num_11, expected_value):
     ''' to test odd_even function in libraries.operation file'''
-    num_11 = 4
-    expected_value = 'even'
     assert expected_value == odd_even(num_11)
-
-def test_odd_check():
-    num_12 = 5
-    expected_value = 'odd'
-    assert expected_value == odd_even(num_12)

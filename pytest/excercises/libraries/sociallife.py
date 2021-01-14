@@ -7,22 +7,16 @@ friend_info = {"Sandeep":"Prabhu",
                 "Sachin":"Singh",
                 "Alok":"Rao" }
 
-def find_friend():
+def find_friend(friend_name):
     ''' to check the friend name is in list or not'''
-    friend_name = input("Enter the friend Name:")
     if friend_name in friend_list:
         return True
     else:
         return False
 
-def find_friend_surname():
+def find_friend_surname(friend_surname):
     ''' to find the friends surname in dict'''
-    friend_surname = input("Enter the friend Name to find the friends surname:")
     if friend_surname in friend_info.keys():
         return friend_info[friend_surname]
     else:
         return False
-
-if __name__ == "__main__":
-    print(find_friend())
-    print(find_friend_surname())
