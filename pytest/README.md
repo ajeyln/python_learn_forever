@@ -80,6 +80,43 @@ It helps in analyzing how comprehensively a software is verified.
 <br /> one we are running this comman,It will generate a folder with the name "htmlcov" <br />
 It has html formatted file with file name, We can open on browser and we can check the code coverage the perticular file.
 
+### <a name="paramaterizing"></a> Fixtures
+
+Fixtures are functions, which will run before each test function and are used to feed some data to the tests <br />
+
+Eg : In below example, when we run the pytest, the function input_value will execute first , as the function is marked as fixtured.
+```python
+import pytest
+
+@pytest.fixture
+def input_value():
+   input = 39
+   return input
+
+def test_divisible_by_3(input_value):
+   assert input_value % 3 == 0
+
+def test_divisible_by_6(input_value):
+   assert input_value % 6 == 0
+```
++ **Parametrizing fixtures** <br />
+The decorator enables parametrization of arguments for a test function.
+
+Eg: While running pytest for the below script, It will take arguments from parameterized fixture <br />
+There are totally 3 sets of argument in below example and based on this arguments pytest will generate test results.
+
+```python
+import pytest
+
+
+@pytest.mark.parametrize("test_input,expected", [("3+5", 8), ("2+4", 6), ("6*9", 42)])
+def test_eval(test_input, expected):
+    assert eval(test_input) == expected
+```
+### Monkey Patching
+
+
+
 ## <a name="useful"></a> Useful Links
 
 | **Sl. No.** | **Link** | **Remarks** |
