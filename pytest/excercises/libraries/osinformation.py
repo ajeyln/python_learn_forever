@@ -3,13 +3,13 @@
 '''importing Libraries'''
 import platform
 
-def find_os_path_separator(os_name):
+def find_os_path_separator():
     ''' conditions ro check operating system'''
-    os_name = os.getcwd()
+    os_name = platform.system()
     if os_name == "Windows" :
-        print(f"The operating system of the current machine is {os_name}")
+        return "\\"
     else:
-        print(f"The operating system of the current machine is {os_name}")
+        return "/"
 
 if __name__ == "__main__":
     path_separator = find_os_path_separator()
