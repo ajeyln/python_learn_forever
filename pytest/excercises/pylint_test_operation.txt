@@ -1,4 +1,6 @@
+************* Module test_operation
+test\test_operation.py:61:0: C0116: Missing function or method docstring (missing-function-docstring)
 
---------------------------------------------------------------------
-Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+------------------------------------------------------------------
+Your code has been rated at 9.76/10 (previous run: 9.76/10, +0.00)
 

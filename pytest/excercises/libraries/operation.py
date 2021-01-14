@@ -20,7 +20,7 @@ def mul_num(a,b):
 '''This function will divide two integer numbers'''
 def div_num(a,b):
     if b == 0 : # The condition will execute while second is zero
-        b = int(input("Please Enter a number other than zero:"))
+        return None
     else:
         temp = a / b
         return temp
@@ -31,13 +31,3 @@ def odd_even(a):
         return "even"
     else:
         return "odd"
-
-if __name__ == "__main__":
-    x = int(input("Please Enter a Number:"))
-    y = int(input("Please Enter another number:"))
-    add_num(x,y)
-    sub_num(x,y)
-    mul_num(x,y)
-    div_num(x,y)
-    odd_even(x)
-

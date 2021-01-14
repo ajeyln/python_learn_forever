@@ -45,8 +45,20 @@ def test_div_num():
     expected_value = 4.5
     assert expected_value == div_num(num_7, num_8)
 
-def test_odd_even():
+def test_zero_div():
+    ''' to test div_num function in libraries.operation file'''
+    num_9 = 9
+    num_10 = 0
+    expected_value = None
+    assert expected_value == div_num(num_9, num_10)
+
+def test_even_check():
     ''' to test odd_even function in libraries.operation file'''
-    num_9 = 4
+    num_11 = 4
     expected_value = 'even'
-    assert expected_value == odd_even(num_9)
+    assert expected_value == odd_even(num_11)
+
+def test_odd_check():
+    num_12 = 5
+    expected_value = 'odd'
+    assert expected_value == odd_even(num_12)

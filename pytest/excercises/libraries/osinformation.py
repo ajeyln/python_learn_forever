@@ -10,7 +10,3 @@ def find_os_path_separator():
         return "\\"
     else:
         return "/"
-
-if __name__ == "__main__":
-    path_separator = find_os_path_separator()
-    print(path_separator)
