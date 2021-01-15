@@ -3,26 +3,7 @@ platform win32 -- Python 3.8.3, pytest-6.2.1, py-1.10.0, pluggy-0.13.1 -- c:\use
 cachedir: .pytest_cache
 rootdir: D:\Python_Learning_Repository\learn_python_forever\pytest\excercises
 plugins: cov-2.10.1
-collecting ... collected 10 items
-
-test/test_helper.py::test_display_name PASSED
-test/test_helper.py::test_display_greeting PASSED
-test/test_operation.py::test_add_num PASSED
-test/test_operation.py::test_sub_num PASSED
-test/test_operation.py::test_mul_num PASSED
-test/test_operation.py::test_div_num[9-2-4.5] PASSED
-test/test_operation.py::test_div_num[15-0-None] PASSED
-test/test_operation.py::test_odd_even[4-even] PASSED
-test/test_operation.py::test_odd_even[7-odd] PASSED
-test/test_osinformation.py::test_find_os_path_separator PASSED
-
-============================= 10 passed in 0.23s ==============================
-============================= test session starts =============================
-platform win32 -- Python 3.8.3, pytest-6.2.1, py-1.10.0, pluggy-0.13.1 -- c:\users\ajey\appdata\local\programs\python\python38-32\python.exe
-cachedir: .pytest_cache
-rootdir: D:\Python_Learning_Repository\learn_python_forever\pytest\excercises
-plugins: cov-2.10.1
-collecting ... collected 13 items
+collecting ... collected 15 items
 
 test/test_helper.py::test_display_name PASSED
 test/test_helper.py::test_display_greeting PASSED
@@ -35,9 +16,11 @@ test/test_operation.py::test_odd_even[4-even] PASSED
 test/test_operation.py::test_odd_even[7-odd] PASSED
 test/test_osinformation.py::test_find_os_path_separator PASSED
 test/test_osinformation.py::test_find_windows_path_separator PASSED
+test/test_personinfo.py::test_mod_info_dict PASSED
+test/test_personinfo.py::test_missing_user PASSED
 test/test_sociallife.py::test_find_friend_surname Bharat
 PASSED
 test/test_sociallife.py::test_friend_invalid_surname Manoj
 PASSED
 
-============================= 13 passed in 0.39s ==============================
+============================= 15 passed in 0.42s ==============================
