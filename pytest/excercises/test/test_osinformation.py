@@ -20,6 +20,8 @@ def test_find_os_path_separator(monkeypatch):
     expected_value = "/"
     assert expected_value == find_os_path_separator()
 
+def test_find_windows_path_separator(monkeypatch):
+    ''' this function is to check the os information'''
     monkeypatch.setattr(platform, "system", lambda : "Windows")
     expected_value = "\\"
     assert expected_value == find_os_path_separator()
