@@ -5,7 +5,6 @@ import pandas as pd
 def count_char():
     my_str = input("Enter an string with spaces: ")
     ser = pd.Series(list(my_str))
-    print(ser)
     freq = ser.value_counts()
     print(freq)
     least_freq = freq.dropna().index[-1]

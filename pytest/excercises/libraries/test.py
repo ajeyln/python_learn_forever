@@ -1,16 +1,20 @@
-# Finding count of charecters in string
-''' importing modules'''
-import pandas as pd
+from io import StringIO
 
-def count_char():
-    my_str = input("Enter an string with spaces: ")
-    ser = pd.Series(list(my_str))
-    print(ser)
-    freq = ser.value_counts()
-    print(freq)
-    least_freq = freq.dropna().index[-1]
-    "".join(ser.replace(' ', least_freq))
-    print("least frequently used charecter is {0}". format(least_freq))
+def double():
+    x = input("Enter an integer: ")
+    return int(x) * 2
 
-if __name__ == "__main__":
-    count_char()
+def adding():
+    x = float(input('Enter the first number'))
+    y = float(input('Enter the second number'))
+    return x + y
+
+def test_double(monkeypatch):
+    number_inputs = StringIO('1234\n')
+    monkeypatch.setattr('sys.stdin', number_inputs)
+    assert double() == 2468
+
+def test_adding(monkeypatch):
+    number_inputs = StringIO('2\n3\n')
+    monkeypatch.setattr('sys.stdin', number_inputs)
+    assert adding() == 5
