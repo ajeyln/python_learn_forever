@@ -9,7 +9,7 @@ sys.path.append(os.getcwd())
 #pylint: disable=import-error
 
 from libraries.helper import display_name
-from libraries.helper import display_greeting
+from libraries.helper import display_greeting, say_hello
 
 #pylint: enable=wrong-import-position
 #pylint: enable=import-error
@@ -24,3 +24,11 @@ def test_display_greeting():
     ''' This test is check display greeting function'''
     expected_value = "Welcome to India"
     assert expected_value == display_greeting()
+
+def test_base_file(capsys):
+    "to check greetings"
+    say_hello()
+    out,err = capsys.readouterr()
+    expected_value = "Hello World\n"
+    assert out == expected_value
+    assert err ==""
