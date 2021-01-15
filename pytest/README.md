@@ -65,7 +65,7 @@ we need to just run the pytest command: <br />
 
 + If we want to know which are all test cases are executed in file, we can use <br />
 ```pytest -s -v``` <br/>
-![pytest_test_result](/images/pytest_s_v.PNG)
+![pytest_test_result](images/pytest_s_v.PNG)
 
 ### 4. <a name="code_coverage"></a> Pytest Code Coverage
 
@@ -83,7 +83,7 @@ It helps in analyzing how comprehensively a software is verified.
 ```Pytest --cov-report html --cov=<source> test```
 <br /> one we are running this comman,It will generate a folder with the name "htmlcov" <br />
 It has html formatted file with file name, We can open on browser and we can check the code coverage the perticular file. <br />
-![pytest_code_coverage](/images/pytest_code_coverage.PNG)
+![pytest_code_coverage](images/pytest_code_coverage.PNG)
 
 ### <a name="test_cases"></a> Types of Test Cases
 + <a name="assertion"></a> Assertions
@@ -157,7 +157,7 @@ def test_find_friend_surname(monkeypatch):
     assert expected_value == find_friend_surname()
 ```
 
-+ <a name="output"></a>Output function
++ <a name="output"></a>**Output function**
 
     When we want to know the output while running pytest, we can check using <br/> 
 ``` capsys.readouterr()```.
