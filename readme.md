@@ -14,14 +14,6 @@
     + [pdb](#pdb)
     + [logging_mechanism_python](#logging_mechanism_python)
     + [functiontools](#functiontools)
-    + [json](#json)
-    + [pipfile](#pipfile)
-    + [decorators](#decorators)
-    + [request](#request)
-    + [flask](#flask)
-    + [boto3](#boto3)
-    + [awa_power_tool](#awa_power_tool)
-    + [front_end_web](#front_end_web)
 * [Reference](#Reference)
 * [Useful Links](#useful_links)
 * [Contact](#contact)
@@ -98,47 +90,18 @@ pytest is a mature full-featured Python testing tool that helps us to write bett
 The pytest framework makes it easy to write small tests, yet scales to support complex functional
 testing for applications and libraries.<br />
 
+The Module is very helpful for testing scripts <br>
+The folder contains my notes and exercises for your reference.  <br />
+
 ### <a name="pdb"></a>**pdb**<br />
 ### <a name="logging_mechanism_python"></a>**logging_mechanism_python**<br />
 
 ### <a name="functiontools"></a>**functiontools**<br />
 
-### <a name="json"></a>**json**<br />
-
-### <a name="pipeline"></a>**pipfile**<br />
-
-### <a name="decorators"></a>**decorators**<br />
-
-### <a name="request"></a>**request**<br />
-
-### <a name="flask"></a>**flask**<br />
-
-### <a name="boto3"></a>**boto3**<br />
-
-
-
-### <a name="awa_power_tool"></a>**awa_power_tool ( later, not now)**
-
-
-
-
-### <a name ="front_end_web"></a>**front_end_web**
-
-
-
 ## To-Dos
-[ ] pytest (module) to unit-test the code <br />  
+[ ] logging mechanism<br />
 [ ] pdb - Python debugging <br />
-[ ] logging_mechanism_python <br />
 [ ] functiontools (module) HIGHER Order functions in python <br />
-[ ] json <br />
-[ ] pipfile <br />
-[ ] decorators in Python <br />
-[ ] request  <br />
-[ ] flask - for web development <br />
-[ ] boto3<br />
-[ ] awa_power_tool ( later, not now) <br />
-[ ] front_end_web : udemy.com/course/vuejs-fast-crash-course (FREE ON UDEMY) <br />
  
 ## <a name="Reference"></a>References
 
@@ -160,6 +123,10 @@ For reference, please find the link from [python Programming](https://edu.heibai
 10|[Pylint Tutorial Guide](https://docs.pylint.org/en/1.6.0/tutorial.html) | Begginer's Guide for Pylint |
 11| [Python Virtual Enviroment Guide](https://docs.python.org/3/tutorial/)| Python Virtual Environment Guide |
 12|[Python Virtual Enviroment Tutorial](https://www.youtube.com/watch?v=APOPm01BVrk) | Python Virtual Enviroment Tutorial |
+13| [Pytest Tutorial](https://www.youtube.com/watch?v=byaxg00Gf9I&feature=emb_logo)| Pytest Tutorial |
+14| [Pytest Tutorial - 2](https://www.tutorialspoint.com/pytest/index.htm) | Pytest Tutorial |
+15| [Pytest Tutorial - 3](https://docs.pytest.org/en/stable/)| Pytest Tutorial|
+16| [Pytest Code Coverage](https://pypi.org/project/pytest-cov/)| Pytest Code Coverage Tutorial
 
 <h2><a name="contact"></a>Contact :</h2>
 
