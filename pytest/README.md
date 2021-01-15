@@ -53,6 +53,79 @@ assert 4==4 is a successful assertion
 assert True is a successful assertion
 assert False is an assertion failure.
 ```
++ **Assert no exception** <br />
+
+In any script raises exception during pytest and we want to disbale those exception 
+
+Eg:
+```python
+PERSON_DET = {'Name':'Sachin', "Surname" : "Singh"}
+
+def del_info_dict(config=None):
+    '''to find person info'''
+    return f"Name={PERSON_DET['Name']}; Surname={PERSON_DET['Surname']};"
+
+def test_missing_user(monkeypatch):
+    "to check dictionary after deleting key values"
+    monkeypatch.delitem(sociallife.PERSON_DET, "Name", raising=False)
+
+    with pytest.raises(KeyError):
+        _ = del_info_dict()
+```
+In the above the example, the items in the dictionary PERSON_DET are getting deleted while we are using the function monkeypatch.delitem() <br />
+we can avoid the exception error using raising=False method.
+
++ **Assert Exception** <br />
+
+when script is throwing an exception error and source file is manipulated by someone. We can create an exception.
+
+Eg:
+```python
+'''This function will multiply two integer numbers'''
+def mul_num(a,b):
+    temp = a * b
+    # If someone change multiplication(*) to division(/),it will generate zero division error
+    return temp
+
+def test_mul_num():
+    ''' to test mul_num function in libraries.operation file'''
+    try:
+        mul_num(10, 0)
+    except Exception as exc:
+        pytest.fail(f"Test is failed due to {exc}")
+```
+In the above the example when source code is manipulated the pytest will throw an error with the exception.
+
+### Input function
+
+When we want to test the scripts by giving input in test file using 
+``` built.input``` in monkeypath.setattr()
+
+Eg:
+```python
+def test_find_friend_surname(monkeypatch):
+    ''' to find the friends surname in dict'''
+    monkeypatch.setattr('builtins.input', lambda prompt="":"Bharat")
+    # here we have set the input as "Bharat"
+    expected_value = "Pai"
+    assert expected_value == find_friend_surname()
+```
+
+### Output function
+
+When we want to know the output while running pytest, we can check using 
+``` capsys.readouterr()```.
+
+Eg:
+```python
+def test_base_file(capsys):
+    "to check greetings"
+    say_hello()
+    out,err = capsys.readouterr()
+    expected_value = "Hello World\n"
+    assert out == expected_value
+    assert err ==""
+```
 
 ### <a name="multiple_files"></a> Run multiple tests from a specific file and multiple files
 
@@ -113,9 +186,8 @@ import pytest
 def test_eval(test_input, expected):
     assert eval(test_input) == expected
 ```
-### Monkey Patching
-
-
+### Monkey Patching <br />
+Sometimes in tests we need to invoke code which cannot be easily tested such as Operating system, System configuration etc
 
 ## <a name="useful"></a> Useful Links
 
