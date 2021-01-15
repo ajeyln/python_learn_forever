@@ -35,12 +35,10 @@ def test_sub_num():
 def test_mul_num():
     ''' to test mul_num function in libraries.operation file'''
     try:
-        num_1 = 10
-        num_2 = 0
-        expected_value = 0
-        assert expected_value == mul_num(num_1, num_2)
-    except: 
-        pytest.fail("Fail Occured due to exception")
+        mul_num(10, 8)
+    except Exception as exc:
+        pytest.fail(f"Test is failed due to {exc}")
+
 
 @pytest.mark.parametrize("num_7, num_8, expected_value",[(9, 2, 4.5), (15, 0, None)])
 def test_div_num(num_7, num_8, expected_value):
