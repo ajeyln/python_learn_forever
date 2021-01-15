@@ -6,6 +6,20 @@
 * [Content](#content)
     + [Installation](#Installation)
     + [Creating test case](#testcase)
+    + [Running Pytest](#running)
+    + [Pytest Code Coverage](#code_coverage)
+    + [Types of Test Cases](#test_cases)
+        * [Assertions](#assertion)
+        * [Assert no exception](#assert_no)
+        * [Assert exception](#assert_exc)
+        * [Input function](#input)
+        * [Output function](#output)
+        * [Monkey Patching](#monkey)
+        * [Monkey Patching set attribute](#setattr)
+        * [Monkey Patching add items to dictionary](#setitem)
+        * [Monkey Patching delete items from dictionary](#delitem)
+    + [Fixtures](#fix)
+        * [parameterized fixture](#param)
 * [Useful Links](#useful)
 
 ## <a name="background"></a> Background
@@ -16,12 +30,12 @@ testing for applications and libraries.<br />
 
 ## <a name="content"></a>Content
 
-### <a name="Installation"></a>Installation
+### 1. <a name="Installation"></a>Installation
 
 We can installl Pytest using the command: <br />
 ```pip install -U pytest```
 
-### <a name="testcase"></a>Creating a test case
+### 2. <a name="testcase"></a>Creating a test case
 
 The following script is to add a number to given number and return
 ``` python
@@ -40,22 +54,54 @@ assert will compare, <br />
 + If the condition is true then test case passes condition.
 + If condition fails, test case fails and display as AssertionError
 
-### <a name="assertion"></a> Assertions in PyTest
+### 3. <a name="running"></a> Running Pytest
 
-Assertions are checks that return either True or False status. <br />
++ If we have multiple test files and want to run all the tests from all the files in the folder and subfolders <br />
+we need to just run the pytest command: <br />
+```pytest ```
+
++ If we want to run tests only from a specific file, we can use <br />
+```pytest <test_sample1.py>```
+
++ If we want to know which are all test cases are executed in file, we can use <br />
+```pytest -s -v``` <br/>
+![pytest_test_result](/images/pytest_s_v.PNG)
+
+### 4. <a name="code_coverage"></a> Pytest Code Coverage
+
+Code coverage is a software testing metric that determines the number of lines of code that is successfully validated under a test procedure. <br />
+It helps in analyzing how comprehensively a software is verified.
+
++ We can installe the Pytest coverage using the command: <br />
+```pip install pytest-cov```
+
++ If we want check the code coverage Pytest, we can use the following command: <br />
+```pytest --cov= <source> test ```
+<br />here source is the set of files or a file, which we want to check the code coverage
+
++ If we need Pytest Code Coverage in html format, we can use the following command: <br />
+```Pytest --cov-report html --cov=<source> test```
+<br /> one we are running this comman,It will generate a folder with the name "htmlcov" <br />
+It has html formatted file with file name, We can open on browser and we can check the code coverage the perticular file. <br />
+![pytest_code_coverage](/images/pytest_code_coverage.PNG)
+
+### <a name="test_cases"></a> Types of Test Cases
++ <a name="assertion"></a> Assertions
+
+    + Assertions are checks that return either True or False status. <br />
 In pytest, if an assertion fails in a test method, then that method execution is stopped. <br />
 The remaining code in that test method is not executed and pytest will continue with the next test method. <br />
 
-Error methods if,
+    Error methods if,
 ``` python
 assert "hello" == "Hai" is an assertion failure.
 assert 4==4 is a successful assertion
 assert True is a successful assertion
 assert False is an assertion failure.
 ```
-+ **Assert no exception** <br />
++ <a name="assert_no"></a>**Assert no exception** <br />
 
-In any script raises exception during pytest and we want to disbale those exception 
+    In any script raises exception during pytest and we want to disbale those exception 
 
 Eg:
 ```python
@@ -75,9 +121,9 @@ def test_missing_user(monkeypatch):
 In the above the example, the items in the dictionary PERSON_DET are getting deleted while we are using the function monkeypatch.delitem() <br />
 we can avoid the exception error using raising=False method.
 
-+ **Assert Exception** <br />
++ <a name="assert_exc"></a>**Assert Exception** <br />
 
-when script is throwing an exception error and source file is manipulated by someone. We can create an exception.
+    when script is throwing an exception error and source file is manipulated by someone. We can create an exception.
 
 Eg:
 ```python
@@ -96,9 +142,9 @@ def test_mul_num():
 ```
 In the above the example when source code is manipulated the pytest will throw an error with the exception.
 
-### Input function
++ <a name="input"></a>**Input function**
 
-When we want to test the scripts by giving input in test file using 
+    When we want to test the scripts by giving input in test file using <br />
 ``` built.input``` in monkeypath.setattr()
 
 Eg:
@@ -111,9 +157,9 @@ def test_find_friend_surname(monkeypatch):
     assert expected_value == find_friend_surname()
 ```
 
-### Output function
++ <a name="output"></a>Output function
 
-When we want to know the output while running pytest, we can check using 
+    When we want to know the output while running pytest, we can check using <br/> 
 ``` capsys.readouterr()```.
 
 Eg:
@@ -126,34 +172,58 @@ def test_base_file(capsys):
     assert out == expected_value
     assert err ==""
 ```
++ <a name="monkey"></a> **Monkey Patching** <br />
+Sometimes in tests we need to invoke code which cannot be easily tested such as Operating system, System configuration etc <br />
 
-### <a name="multiple_files"></a> Run multiple tests from a specific file and multiple files
++ <a name="setattr"></a> **Monkey Patching Set Attribute** <br />
+    When we want to modify the behaviour of functions for test cases,
+we can do this by using ```monkeypatch.setattr()``` <br />
+Syntax: 
+```
+monkeypatch.setattr(obj, name, value, raising=True)
+```
+Eg:
+```python 
+def test_find_windows_path_separator(monkeypatch):
+    ''' this function is to check the os information'''
+    monkeypatch.setattr(platform, "system", lambda : "Windows")
+    expected_value = "\\"
+    assert expected_value == find_os_path_separator()
+```
++ <a name="setitem"></a> **Monkey Patching Set Items**<br />
+    When we to add an item to dictionary in test cases <br />
+we can do this by using  ```monkeypatch.setitem()``` <br/>
+Syntax: 
+```python
+monkeypatch.setitem(mapping, name, value)
+```
+Eg:
+```python
+def test_mod_info_dict(monkeypatch):
+    "to check dictionary with values"
+    monkeypatch.setitem(sociallife.PERSON_INFO, "Name", "Akash")
+    monkeypatch.setitem(sociallife.PERSON_INFO, "Surname", "Sharma")
+    expected_value = "Name=Akash; Surname=Sharma;"
+    assert expected_value == mod_info_dict()
+```
++ <a name="delitem"></a> **Monkey Patching Delete Items**<br />
+ 
+When we to delete an item in dictionary in test cases. <br />
+we can do this by using  ```monkeypatch.setitem()```
+Syntax: 
+``` python
+monkeypatch.setattr(obj, name, value)
+```
+Eg:
+```python
+def test_missing_user(monkeypatch):
+    "to check dictionary after deleting key values"
+    monkeypatch.delitem(sociallife.PERSON_DET, "Name", raising=False)
 
-If we have multiple test files and want to run all the tests from all the files in the folder and subfolders <br />
-we need to just run the pytest command: <br />
-```py.test ```
-
-If we want torun tests only from a specific file, we can use py.test <filename><br />
-```py.test test_sample1.py```
-
-### <a name="code_coverage"></a> Pytest Code Coverage
-
-Code coverage is a software testing metric that determines the number of lines of code that is successfully validated under a test procedure. <br />
-It helps in analyzing how comprehensively a software is verified.
-
-+ We can installe the Pytest coverage using the command: <br />
-```pip install pytest-cov```
-
-+ If we want check the code coverage Pytest, we can use the following command: <br />
-```pytest --cov= <source> test ```
-<br />here source is the set of files or a file, which we want to check the code coverage
-
-+ If we need Pytest Code Coverage in html format, we can use the following command: <br />
-```Pytest --cov-report html --cov=<source> test```
-<br /> one we are running this comman,It will generate a folder with the name "htmlcov" <br />
-It has html formatted file with file name, We can open on browser and we can check the code coverage the perticular file.
-
-### <a name="paramaterizing"></a> Fixtures
+    with pytest.raises(KeyError):
+        _ = del_info_dict()
+```
+### <a name="fix"></a> Fixtures
 
 Fixtures are functions, which will run before each test function and are used to feed some data to the tests <br />
 
@@ -172,22 +242,18 @@ def test_divisible_by_3(input_value):
 def test_divisible_by_6(input_value):
    assert input_value % 6 == 0
 ```
-+ **Parametrizing fixtures** <br />
++ <a name="param"></a></a>**Parametrizing fixtures** <br />
 The decorator enables parametrization of arguments for a test function.
 
-Eg: While running pytest for the below script, It will take arguments from parameterized fixture <br />
-There are totally 3 sets of argument in below example and based on this arguments pytest will generate test results.
+    Eg: While running pytest for the below script, It will take arguments from parameterized fixture <br />
+    There are totally 3 sets of argument in below example and based on this arguments pytest will generate test results.
 
 ```python
 import pytest
-
-
 @pytest.mark.parametrize("test_input,expected", [("3+5", 8), ("2+4", 6), ("6*9", 42)])
 def test_eval(test_input, expected):
     assert eval(test_input) == expected
 ```
-### Monkey Patching <br />
-Sometimes in tests we need to invoke code which cannot be easily tested such as Operating system, System configuration etc
 
 ## <a name="useful"></a> Useful Links
 
