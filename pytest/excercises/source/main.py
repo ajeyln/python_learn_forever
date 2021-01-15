@@ -26,7 +26,7 @@ def oper_num(name_2, value_1, value_2, my_str):
     we need to reach libraries folder from source folder'''
     display_greeting()
     display_name(name_2)
-    print("Now we are going to start Mathematical libraries.operations")
+    print("Now we are going to start Mathematical operations")
     print(add_num(value_1,value_2))
     print(sub_num(value_1,value_2))
     print(mul_num(value_1,value_2))
@@ -35,12 +35,15 @@ def oper_num(name_2, value_1, value_2, my_str):
     else:
         print(div_num(value_1,value_2))
     print(odd_even(value_2))
-    print(count_char(my_str))
     print(find_os_path_separator())
 
 if __name__ == '__main__':
-    item_1 = sys.argv[1]
-    item_2 = sys.argv[2]
-    item_3 = sys.argv[3]
-    item_4 = sys.argv[4]
-    oper_num(item_1, item_2, item_3, item_4)
+    if len(sys.argv) != 5:
+        print("$ python source\main.py <user_name> <number_1> <number_2> <string_name> ")
+        sys.exit(1)
+    
+    user_name = str(sys.argv[1])
+    number_1 = int(sys.argv[2])
+    number_2 = int(sys.argv[3])
+    string_name = str(sys.argv[4])
+    oper_num(user_name, number_1, number_2, string_name)
