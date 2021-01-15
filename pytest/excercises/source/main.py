@@ -21,26 +21,26 @@ from libraries.osinformation import find_os_path_separator
 #pylint: enable=wrong-import-position
 #pylint: enable=import-error
 
-def oper_num():
+def oper_num(name_2, value_1, value_2, my_str):
     ''' In order to import custom files from libraries folder,
     we need to reach libraries folder from source folder'''
     display_greeting()
-    name_2 = input("Please Enter Your name:")
     display_name(name_2)
     print("Now we are going to start Mathematical libraries.operations")
-    value_1 = int(input("Please Enter a Number:"))
-    value_2 = int(input("Please Enter another number:"))
     print(add_num(value_1,value_2))
     print(sub_num(value_1,value_2))
     print(mul_num(value_1,value_2))
     if value_2 == 0: # The condition will execute while second is zero
-        value_2 = int(input("Please Enter a number other than zero:"))
+        print("Zero Division error")
     else:
         print(div_num(value_1,value_2))
     print(odd_even(value_2))
-    my_str = input("Enter an string with spaces: ")
     print(count_char(my_str))
     print(find_os_path_separator())
 
 if __name__ == '__main__':
-    oper_num()
+    item_1 = sys.argv[1]
+    item_2 = sys.argv[2]
+    item_3 = sys.argv[3]
+    item_4 = sys.argv[4]
+    oper_num(item_1, item_2, item_3, item_4)
