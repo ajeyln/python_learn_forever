@@ -76,4 +76,5 @@ if __name__ == '__main__':
     
     number_1 = int(sys.argv[1])
     number_2 = int(sys.argv[2])
+    logger.info(f"Command line argument is {sys.argv}")
     oper_num(number_1, number_2)

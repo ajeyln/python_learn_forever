@@ -1,28 +1,28 @@
-2021-01-17 19:16:58,856:test_operation:testing add_num function in operation file
-2021-01-17 19:16:58,856:INFO:testing add_num function in operation file
-2021-01-17 19:16:58,856:test_operation:first values is 4
-2021-01-17 19:16:58,856:INFO:first values is 4
-2021-01-17 19:16:58,856:test_operation:second values is 5
-2021-01-17 19:16:58,856:INFO:second values is 5
-2021-01-17 19:16:58,856:test_operation:testing sub_num function in operation file
-2021-01-17 19:16:58,856:INFO:testing sub_num function in operation file
-2021-01-17 19:16:58,872:test_operation:first values is 12
-2021-01-17 19:16:58,872:INFO:first values is 12
-2021-01-17 19:16:58,872:test_operation:second values is 3
-2021-01-17 19:16:58,872:INFO:second values is 3
-2021-01-17 19:16:58,872:test_operation:testing div_num function in operation file
-2021-01-17 19:16:58,872:INFO:testing div_num function in operation file
-2021-01-17 19:16:58,887:test_operation:first values is 9
-2021-01-17 19:16:58,887:INFO:first values is 9
-2021-01-17 19:16:58,887:test_operation:second values is 2
-2021-01-17 19:16:58,887:INFO:second values is 2
-2021-01-17 19:16:58,887:test_operation:testing div_num function in operation file
-2021-01-17 19:16:58,887:INFO:testing div_num function in operation file
-2021-01-17 19:16:58,887:test_operation:first values is 15
-2021-01-17 19:16:58,887:INFO:first values is 15
-2021-01-17 19:16:58,887:test_operation:second values is 0
-2021-01-17 19:16:58,887:INFO:second values is 0
-2021-01-17 19:16:58,903:test_operation:Testing the number is odd or not
-2021-01-17 19:16:58,903:INFO:Testing the number is odd or not
-2021-01-17 19:16:58,903:test_operation:Testing the number is odd or not
-2021-01-17 19:16:58,903:INFO:Testing the number is odd or not
+2021-01-17 19:43:13,522:test_operation:testing add_num function in operation file
+2021-01-17 19:43:13,522:INFO:testing add_num function in operation file
+2021-01-17 19:43:13,524:test_operation:first values is 4
+2021-01-17 19:43:13,524:INFO:first values is 4
+2021-01-17 19:43:13,524:test_operation:second values is 5
+2021-01-17 19:43:13,524:INFO:second values is 5
+2021-01-17 19:43:13,532:test_operation:testing sub_num function in operation file
+2021-01-17 19:43:13,532:INFO:testing sub_num function in operation file
+2021-01-17 19:43:13,533:test_operation:first values is 12
+2021-01-17 19:43:13,533:INFO:first values is 12
+2021-01-17 19:43:13,534:test_operation:second values is 3
+2021-01-17 19:43:13,534:INFO:second values is 3
+2021-01-17 19:43:13,549:test_operation:testing div_num function in operation file
+2021-01-17 19:43:13,549:INFO:testing div_num function in operation file
+2021-01-17 19:43:13,550:test_operation:first values is 9
+2021-01-17 19:43:13,550:INFO:first values is 9
+2021-01-17 19:43:13,550:test_operation:second values is 2
+2021-01-17 19:43:13,550:INFO:second values is 2
+2021-01-17 19:43:13,558:test_operation:testing div_num function in operation file
+2021-01-17 19:43:13,558:INFO:testing div_num function in operation file
+2021-01-17 19:43:13,559:test_operation:first values is 15
+2021-01-17 19:43:13,559:INFO:first values is 15
+2021-01-17 19:43:13,559:test_operation:second values is 0
+2021-01-17 19:43:13,559:INFO:second values is 0
+2021-01-17 19:43:13,567:test_operation:Testing the number is odd or not
+2021-01-17 19:43:13,567:INFO:Testing the number is odd or not
+2021-01-17 19:43:13,575:test_operation:Testing the number is odd or not
+2021-01-17 19:43:13,575:INFO:Testing the number is odd or not

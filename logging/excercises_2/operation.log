@@ -1,55 +1,39 @@
-2021-01-17 19:14:55,181:INFO:Now we are in addition operation
-2021-01-17 19:14:55,181:INFO:Now we are in addition operation
-2021-01-17 19:14:55,182:DEBUG:The Value after addition is 21
-2021-01-17 19:14:55,184:INFO:Now we are in subtract operation
-2021-01-17 19:14:55,184:INFO:Now we are in subtract operation
-2021-01-17 19:14:55,185:DEBUG:The Value after subteaction is 7
-2021-01-17 19:14:55,187:INFO:Now we are in multiplication operation
-2021-01-17 19:14:55,187:INFO:Now we are in multiplication operation
-2021-01-17 19:14:55,188:DEBUG:The Value after multiplication is 98
-2021-01-17 19:14:55,190:INFO:Now we are in division operation
-2021-01-17 19:14:55,190:INFO:Now we are in division operation
-2021-01-17 19:14:55,191:DEBUG:The Value after multiplication is 2.0
-2021-01-17 19:14:55,192:INFO:to check the number odd or even
-2021-01-17 19:14:55,192:INFO:to check the number odd or even
-2021-01-17 19:14:55,193:INFO:7 is odd
-2021-01-17 19:14:55,193:INFO:7 is odd
-2021-01-17 19:16:16,078:INFO:Now we are in addition operation
-2021-01-17 19:16:16,078:INFO:Now we are in addition operation
-2021-01-17 19:16:16,079:DEBUG:The Value after addition is 21
-2021-01-17 19:16:16,081:INFO:Now we are in subtract operation
-2021-01-17 19:16:16,081:INFO:Now we are in subtract operation
-2021-01-17 19:16:16,082:DEBUG:The Value after subteaction is 7
-2021-01-17 19:16:16,084:INFO:Now we are in multiplication operation
-2021-01-17 19:16:16,084:INFO:Now we are in multiplication operation
-2021-01-17 19:16:16,085:DEBUG:The Value after multiplication is 98
-2021-01-17 19:16:16,087:INFO:Now we are in division operation
-2021-01-17 19:16:16,087:INFO:Now we are in division operation
-2021-01-17 19:16:16,088:DEBUG:The Value after multiplication is 2.0
-2021-01-17 19:16:16,089:INFO:to check the number odd or even
-2021-01-17 19:16:16,089:INFO:to check the number odd or even
-2021-01-17 19:16:16,090:INFO:7 is odd
-2021-01-17 19:16:16,090:INFO:7 is odd
-2021-01-17 19:16:58,856:INFO:Now we are in addition operation
-2021-01-17 19:16:58,856:INFO:Now we are in addition operation
-2021-01-17 19:16:58,856:DEBUG:The Value after addition is 9
-2021-01-17 19:16:58,872:INFO:Now we are in subtract operation
-2021-01-17 19:16:58,872:INFO:Now we are in subtract operation
-2021-01-17 19:16:58,872:DEBUG:The Value after subteaction is 9
-2021-01-17 19:16:58,872:INFO:Now we are in multiplication operation
-2021-01-17 19:16:58,872:INFO:Now we are in multiplication operation
-2021-01-17 19:16:58,872:DEBUG:The Value after multiplication is 80
-2021-01-17 19:16:58,887:INFO:Now we are in division operation
-2021-01-17 19:16:58,887:INFO:Now we are in division operation
-2021-01-17 19:16:58,887:DEBUG:The Value after multiplication is 4.5
-2021-01-17 19:16:58,887:INFO:Now we are in division operation
-2021-01-17 19:16:58,887:INFO:Now we are in division operation
-2021-01-17 19:16:58,887:DEBUG:Zero Exception error
-2021-01-17 19:16:58,903:INFO:to check the number odd or even
-2021-01-17 19:16:58,903:INFO:to check the number odd or even
-2021-01-17 19:16:58,903:INFO:4 is even
-2021-01-17 19:16:58,903:INFO:4 is even
-2021-01-17 19:16:58,903:INFO:to check the number odd or even
-2021-01-17 19:16:58,903:INFO:to check the number odd or even
-2021-01-17 19:16:58,903:INFO:7 is odd
-2021-01-17 19:16:58,903:INFO:7 is odd
+2021-01-17 19:42:34,382:INFO:Now we are in addition operation
+2021-01-17 19:42:34,382:INFO:Now we are in addition operation
+2021-01-17 19:42:34,382:DEBUG:The Value after addition is 21
+2021-01-17 19:42:34,382:INFO:Now we are in subtract operation
+2021-01-17 19:42:34,382:INFO:Now we are in subtract operation
+2021-01-17 19:42:34,382:DEBUG:The Value after subteaction is 7
+2021-01-17 19:42:34,382:INFO:Now we are in multiplication operation
+2021-01-17 19:42:34,382:INFO:Now we are in multiplication operation
+2021-01-17 19:42:34,398:DEBUG:The Value after multiplication is 98
+2021-01-17 19:42:34,398:INFO:Now we are in division operation
+2021-01-17 19:42:34,398:INFO:Now we are in division operation
+2021-01-17 19:42:34,398:DEBUG:The Value after multiplication is 2.0
+2021-01-17 19:42:34,398:INFO:to check the number odd or even
+2021-01-17 19:42:34,398:INFO:to check the number odd or even
+2021-01-17 19:42:34,398:INFO:7 is odd
+2021-01-17 19:42:34,398:INFO:7 is odd
+2021-01-17 19:43:13,525:INFO:Now we are in addition operation
+2021-01-17 19:43:13,525:INFO:Now we are in addition operation
+2021-01-17 19:43:13,526:DEBUG:The Value after addition is 9
+2021-01-17 19:43:13,534:INFO:Now we are in subtract operation
+2021-01-17 19:43:13,534:INFO:Now we are in subtract operation
+2021-01-17 19:43:13,535:DEBUG:The Value after subteaction is 9
+2021-01-17 19:43:13,541:INFO:Now we are in multiplication operation
+2021-01-17 19:43:13,541:INFO:Now we are in multiplication operation
+2021-01-17 19:43:13,541:DEBUG:The Value after multiplication is 80
+2021-01-17 19:43:13,551:INFO:Now we are in division operation
+2021-01-17 19:43:13,551:INFO:Now we are in division operation
+2021-01-17 19:43:13,551:DEBUG:The Value after multiplication is 4.5
+2021-01-17 19:43:13,560:INFO:Now we are in division operation
+2021-01-17 19:43:13,560:INFO:Now we are in division operation
+2021-01-17 19:43:13,560:DEBUG:Zero Exception error
+2021-01-17 19:43:13,568:INFO:to check the number odd or even
+2021-01-17 19:43:13,568:INFO:to check the number odd or even
+2021-01-17 19:43:13,568:INFO:4 is even
+2021-01-17 19:43:13,568:INFO:4 is even
+2021-01-17 19:43:13,575:INFO:to check the number odd or even
+2021-01-17 19:43:13,575:INFO:to check the number odd or even
+2021-01-17 19:43:13,576:INFO:7 is odd
+2021-01-17 19:43:13,576:INFO:7 is odd

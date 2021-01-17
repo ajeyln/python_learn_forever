@@ -1,16 +1,18 @@
-2021-01-17 19:16:16,074:__main__:Now we are doing mathematical operations
-2021-01-17 19:16:16,074:INFO:__main__
-2021-01-17 19:16:16,076:__main__:The first number is 14
-2021-01-17 19:16:16,076:CRITICAL:__main__
-2021-01-17 19:16:16,076:The first number is 14:__main__
-2021-01-17 19:16:16,077:__main__:The second number is 7
-2021-01-17 19:16:16,077:CRITICAL:__main__
-2021-01-17 19:16:16,077:The second number is 7:__main__
-2021-01-17 19:16:16,080:__main__:addition of two number is 21
-2021-01-17 19:16:16,080:INFO:__main__
-2021-01-17 19:16:16,083:__main__:substraction of two number is 7
-2021-01-17 19:16:16,083:INFO:__main__
-2021-01-17 19:16:16,086:__main__:Multiplication of two number is 98
-2021-01-17 19:16:16,086:INFO:__main__
-2021-01-17 19:16:16,091:__main__:odd
-2021-01-17 19:16:16,091:INFO:__main__
+2021-01-17 19:42:34,382:__main__:Now we are doing mathematical operations
+2021-01-17 19:42:34,382:INFO:__main__
+2021-01-17 19:42:34,382:__main__:Command line argument is ['main.py', '14', '7']
+2021-01-17 19:42:34,382:INFO:__main__
+2021-01-17 19:42:34,382:__main__:The first number is 14
+2021-01-17 19:42:34,382:CRITICAL:__main__
+2021-01-17 19:42:34,382:The first number is 14:__main__
+2021-01-17 19:42:34,382:__main__:The second number is 7
+2021-01-17 19:42:34,382:CRITICAL:__main__
+2021-01-17 19:42:34,382:The second number is 7:__main__
+2021-01-17 19:42:34,382:__main__:addition of two number is 21
+2021-01-17 19:42:34,382:INFO:__main__
+2021-01-17 19:42:34,382:__main__:substraction of two number is 7
+2021-01-17 19:42:34,382:INFO:__main__
+2021-01-17 19:42:34,398:__main__:Multiplication of two number is 98
+2021-01-17 19:42:34,398:INFO:__main__
+2021-01-17 19:42:34,398:__main__:odd
+2021-01-17 19:42:34,398:INFO:__main__
