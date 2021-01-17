@@ -17,7 +17,7 @@ file_debug.setFormatter(formatter_debug)
 logger.addHandler(file_debug)
 
 # Stream handler
-formatter_stream = logging.Formatter('%(pathname)s:%(module)s:%(levelname)s')
+formatter_stream = logging.Formatter('%(pathname)s:%(module)s:%(message)s')
 
 stream_data = logging.StreamHandler()
 stream_data.setFormatter(formatter_stream)
@@ -25,7 +25,7 @@ stream_data.setFormatter(formatter_stream)
 logger.addHandler(stream_data)
 
 # file handler for Info
-formatter_info = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s')
+formatter_info = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
 
 file_info = logging.FileHandler('test_operation.log')
 file_info.setLevel(logging.INFO)
@@ -34,7 +34,7 @@ file_info.setFormatter(formatter_info)
 logger.addHandler(file_info)
 
 # file Handler Critical
-formatter_critical = logging.Formatter('%(module)s:%(asctime)s:%(levelname)s')
+formatter_critical = logging.Formatter('%(message)s:%(asctime)s:%(levelname)s')
 
 file_critical = logging.FileHandler('test_operation.log')
 file_critical.setLevel(logging.CRITICAL)

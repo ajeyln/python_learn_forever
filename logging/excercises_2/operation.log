@@ -1,130 +1,55 @@
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:23:40,251:INFO
-2021-01-17 18:23:40,251:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:23:40,251:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:23:40,251:INFO
-2021-01-17 18:23:40,251:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:23:40,251:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:23:40,251:INFO
-2021-01-17 18:23:40,251:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:23:40,251:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:23:40,267:INFO
-2021-01-17 18:23:40,267:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:25:30,094:INFO
-2021-01-17 18:25:30,094:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:25:30,094:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:25:30,391:INFO
-2021-01-17 18:25:30,391:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:25:30,391:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:25:30,391:INFO
-2021-01-17 18:25:30,391:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:25:30,423:INFO
-2021-01-17 18:25:30,423:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:36:59,506:INFO
-2021-01-17 18:36:59,506:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:36:59,506:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:36:59,775:INFO
-2021-01-17 18:36:59,775:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:36:59,775:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:36:59,784:INFO
-2021-01-17 18:36:59,784:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:36:59,814:INFO
-2021-01-17 18:36:59,814:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:43:09,094:INFO
-2021-01-17 18:43:09,094:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:43:09,094:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:43:09,344:INFO
-2021-01-17 18:43:09,344:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:43:09,360:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:43:09,360:INFO
-2021-01-17 18:43:09,360:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:43:09,391:INFO
-2021-01-17 18:43:09,391:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:53:58,094:INFO
-2021-01-17 18:53:58,094:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:53:58,094:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:53:58,346:INFO
-2021-01-17 18:53:58,346:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:53:58,346:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:53:58,361:INFO
-2021-01-17 18:53:58,361:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:53:58,385:INFO
-2021-01-17 18:53:58,385:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:54:44,749:INFO
-2021-01-17 18:54:44,749:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:54:44,750:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:54:45,041:INFO
-2021-01-17 18:54:45,041:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:54:45,042:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:54:45,051:INFO
-2021-01-17 18:54:45,051:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:54:45,091:INFO
-2021-01-17 18:54:45,091:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:54:45,122:INFO
-2021-01-17 18:54:45,122:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:54:45,123:INFO
-2021-01-17 18:54:45,123:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:54:45,131:INFO
-2021-01-17 18:54:45,131:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:54:45,132:INFO
-2021-01-17 18:54:45,132:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:55:40,048:INFO
-2021-01-17 18:55:40,048:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:55:40,048:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:55:40,291:INFO
-2021-01-17 18:55:40,291:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:55:40,291:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:55:40,306:INFO
-2021-01-17 18:55:40,306:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:55:40,338:INFO
-2021-01-17 18:55:40,338:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:55:40,353:INFO
-2021-01-17 18:55:40,353:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:55:40,369:INFO
-2021-01-17 18:55:40,369:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:55:40,369:INFO
-2021-01-17 18:55:40,369:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:55:40,369:INFO
-2021-01-17 18:55:40,369:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,466:INFO
-2021-01-17 18:57:16,466:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,466:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,785:INFO
-2021-01-17 18:57:16,785:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,786:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,794:INFO
-2021-01-17 18:57:16,794:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,794:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,803:INFO
-2021-01-17 18:57:16,803:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,803:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,812:INFO
-2021-01-17 18:57:16,812:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,813:INFO
-2021-01-17 18:57:16,813:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,823:INFO
-2021-01-17 18:57:16,823:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:16,824:INFO
-2021-01-17 18:57:16,824:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,956:INFO
-2021-01-17 18:57:47,956:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,956:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,964:INFO
-2021-01-17 18:57:47,964:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,965:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,971:INFO
-2021-01-17 18:57:47,971:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,972:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,980:INFO
-2021-01-17 18:57:47,980:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,981:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,990:INFO
-2021-01-17 18:57:47,990:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,990:DEBUG
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,997:INFO
-2021-01-17 18:57:47,997:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:47,998:INFO
-2021-01-17 18:57:47,998:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:48,005:INFO
-2021-01-17 18:57:48,005:INFO:operation
-D:\Python_Learning_Repository\learn_python_forever\logging\excercises - 2\operation.py:2021-01-17 18:57:48,005:INFO
-2021-01-17 18:57:48,005:INFO:operation
+2021-01-17 19:14:55,181:INFO:Now we are in addition operation
+2021-01-17 19:14:55,181:INFO:Now we are in addition operation
+2021-01-17 19:14:55,182:DEBUG:The Value after addition is 21
+2021-01-17 19:14:55,184:INFO:Now we are in subtract operation
+2021-01-17 19:14:55,184:INFO:Now we are in subtract operation
+2021-01-17 19:14:55,185:DEBUG:The Value after subteaction is 7
+2021-01-17 19:14:55,187:INFO:Now we are in multiplication operation
+2021-01-17 19:14:55,187:INFO:Now we are in multiplication operation
+2021-01-17 19:14:55,188:DEBUG:The Value after multiplication is 98
+2021-01-17 19:14:55,190:INFO:Now we are in division operation
+2021-01-17 19:14:55,190:INFO:Now we are in division operation
+2021-01-17 19:14:55,191:DEBUG:The Value after multiplication is 2.0
+2021-01-17 19:14:55,192:INFO:to check the number odd or even
+2021-01-17 19:14:55,192:INFO:to check the number odd or even
+2021-01-17 19:14:55,193:INFO:7 is odd
+2021-01-17 19:14:55,193:INFO:7 is odd
+2021-01-17 19:16:16,078:INFO:Now we are in addition operation
+2021-01-17 19:16:16,078:INFO:Now we are in addition operation
+2021-01-17 19:16:16,079:DEBUG:The Value after addition is 21
+2021-01-17 19:16:16,081:INFO:Now we are in subtract operation
+2021-01-17 19:16:16,081:INFO:Now we are in subtract operation
+2021-01-17 19:16:16,082:DEBUG:The Value after subteaction is 7
+2021-01-17 19:16:16,084:INFO:Now we are in multiplication operation
+2021-01-17 19:16:16,084:INFO:Now we are in multiplication operation
+2021-01-17 19:16:16,085:DEBUG:The Value after multiplication is 98
+2021-01-17 19:16:16,087:INFO:Now we are in division operation
+2021-01-17 19:16:16,087:INFO:Now we are in division operation
+2021-01-17 19:16:16,088:DEBUG:The Value after multiplication is 2.0
+2021-01-17 19:16:16,089:INFO:to check the number odd or even
+2021-01-17 19:16:16,089:INFO:to check the number odd or even
+2021-01-17 19:16:16,090:INFO:7 is odd
+2021-01-17 19:16:16,090:INFO:7 is odd
+2021-01-17 19:16:58,856:INFO:Now we are in addition operation
+2021-01-17 19:16:58,856:INFO:Now we are in addition operation
+2021-01-17 19:16:58,856:DEBUG:The Value after addition is 9
+2021-01-17 19:16:58,872:INFO:Now we are in subtract operation
+2021-01-17 19:16:58,872:INFO:Now we are in subtract operation
+2021-01-17 19:16:58,872:DEBUG:The Value after subteaction is 9
+2021-01-17 19:16:58,872:INFO:Now we are in multiplication operation
+2021-01-17 19:16:58,872:INFO:Now we are in multiplication operation
+2021-01-17 19:16:58,872:DEBUG:The Value after multiplication is 80
+2021-01-17 19:16:58,887:INFO:Now we are in division operation
+2021-01-17 19:16:58,887:INFO:Now we are in division operation
+2021-01-17 19:16:58,887:DEBUG:The Value after multiplication is 4.5
+2021-01-17 19:16:58,887:INFO:Now we are in division operation
+2021-01-17 19:16:58,887:INFO:Now we are in division operation
+2021-01-17 19:16:58,887:DEBUG:Zero Exception error
+2021-01-17 19:16:58,903:INFO:to check the number odd or even
+2021-01-17 19:16:58,903:INFO:to check the number odd or even
+2021-01-17 19:16:58,903:INFO:4 is even
+2021-01-17 19:16:58,903:INFO:4 is even
+2021-01-17 19:16:58,903:INFO:to check the number odd or even
+2021-01-17 19:16:58,903:INFO:to check the number odd or even
+2021-01-17 19:16:58,903:INFO:7 is odd
+2021-01-17 19:16:58,903:INFO:7 is odd
