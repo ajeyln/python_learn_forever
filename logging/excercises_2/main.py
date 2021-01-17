@@ -8,7 +8,7 @@ logger.setLevel(logging.INFO)
 # file handler for Debug
 formatter_debug = logging.Formatter('%(asctime)s:%(name)s:%(message)s')
 
-file_handler_debug = logging.FileHandler('main.log')
+file_handler_debug = logging.FileHandler('main_debug.log')
 file_handler_debug.setLevel(logging.DEBUG)
 file_handler_debug.setFormatter(formatter_debug)
 
@@ -23,7 +23,7 @@ logger.addHandler(stream_data)
 # file handler for Info
 formatter_info = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s')
 
-file_handler_info = logging.FileHandler('main.log')
+file_handler_info = logging.FileHandler('main_info.log')
 file_handler_info.setLevel(logging.INFO)
 file_handler_info.setFormatter(formatter_info)
 
@@ -32,7 +32,7 @@ logger.addHandler(file_handler_info)
 # file Handler Critical
 formatter_critical = logging.Formatter('%(asctime)s:%(message)s:%(name)s')
 
-file_handler_critical = logging.FileHandler('main.log')
+file_handler_critical = logging.FileHandler('main_critical.log')
 file_handler_critical.setLevel(logging.CRITICAL)
 file_handler_critical.setFormatter(formatter_critical)
 
@@ -70,7 +70,7 @@ def oper_num(value_1, value_2):
 
 if __name__ == '__main__':
     logger.info("Now we are doing mathematical operations")
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print("$ python main.py <number_1> <number_2> ")
         sys.exit(1)
     

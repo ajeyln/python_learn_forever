@@ -1,0 +1,14 @@
+2021-01-17 18:23:40,251:__main__:Now we are doing mathematical operations
+2021-01-17 18:23:40,251:INFO:__main__
+2021-01-17 18:23:40,251:__main__:The first number is 15
+2021-01-17 18:23:40,251:CRITICAL:__main__
+2021-01-17 18:23:40,251:The first number is 15:__main__
+2021-01-17 18:23:40,251:__main__:The second number is 12
+2021-01-17 18:23:40,251:CRITICAL:__main__
+2021-01-17 18:23:40,251:The second number is 12:__main__
+2021-01-17 18:23:40,251:__main__:addition of two number is 27
+2021-01-17 18:23:40,251:INFO:__main__
+2021-01-17 18:23:40,251:__main__:substraction of two number is 3
+2021-01-17 18:23:40,251:INFO:__main__
+2021-01-17 18:23:40,267:__main__:Multiplication of two number is 180
+2021-01-17 18:23:40,267:INFO:__main__
