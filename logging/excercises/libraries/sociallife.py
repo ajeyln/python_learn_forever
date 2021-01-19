@@ -17,7 +17,7 @@ logger.addHandler(stream_data)
 # File handler for debug
 formatter_debug = logging.Formatter('%(levelname)s:%(asctime)s:%(message)s')
 
-filehandler_debug = logging.FileHandler("output\sociallife.log", "w+")
+filehandler_debug = logging.FileHandler("output\sociallife.log")
 filehandler_debug.setLevel(logging.DEBUG)
 filehandler_debug.setFormatter(formatter_debug)
 
@@ -26,7 +26,7 @@ logger.addHandler(filehandler_debug)
 # formatter handler for info
 formatter_info = logging.Formatter('%(levelname)s:%(asctime)s:%(message)s')
 
-filehandler_info = logging.FileHandler("output\sociallife.log", "w+")
+filehandler_info = logging.FileHandler("output\sociallife.log")
 filehandler_info.setLevel(logging.INFO)
 filehandler_info.setFormatter(formatter_info)
 
@@ -35,7 +35,7 @@ logger.addFilter(filehandler_info)
 # File Handler for critical
 formatter_critical = logging.Formatter('%(levelname)s:%(asctime)s:%(message)s')
 
-filehandler_critical = logging.FileHandler("output\sociallife.log", "w+")
+filehandler_critical = logging.FileHandler("output\sociallife.log")
 filehandler_critical.setLevel(logging.CRITICAL)
 filehandler_critical.setFormatter(formatter_critical)
 
@@ -46,11 +46,8 @@ friend_info = {"Sandeep":"Prabhu",
                 "Bharat":"Pai",
                 "Sachin":"Singh",
                 "Alok":"Rao" }
-logger.info(friend_info)
 PERSON_INFO = {'Name':'Ajeya', "Surname" : "Nayak"}
-logger.info(PERSON_INFO)
 PERSON_DET = {'Name':'Sachin', "Surname" : "Singh"}
-logger.info(PERSON_DET)
 
 def find_friend_surname():
     ''' to find the friends surname in dict'''
