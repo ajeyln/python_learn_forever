@@ -1,0 +1,5 @@
+DEBUG:2021-01-19 21:53:10,215:This function will add two integer numbers
+DEBUG:2021-01-19 21:53:10,217:This function will subtract two integer numbers
+DEBUG:2021-01-19 21:53:10,219:This function will multiply two integer numbers
+DEBUG:2021-01-19 21:53:10,222:This function will divide two integer numbers
+DEBUG:2021-01-19 21:53:10,224:This function will check the given number is even or odd

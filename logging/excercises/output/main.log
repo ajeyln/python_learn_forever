@@ -1,0 +1,13 @@
+INFO:2021-01-19 21:53:10,207:Now we are doing mathematical operations
+INFO:2021-01-19 21:53:10,208:Command line argument is ['source\\main.py', 'Ajey', '14', '7', 'Nayak']
+INFO:2021-01-19 21:53:10,210:The user name is Ajey
+INFO:2021-01-19 21:53:10,210:The first number is 14
+INFO:2021-01-19 21:53:10,211:The second number is 7
+INFO:2021-01-19 21:53:10,212:The string name is Nayak
+INFO:2021-01-19 21:53:10,216:addition of two number is 21
+INFO:2021-01-19 21:53:10,218:substraction of two number is 7
+INFO:2021-01-19 21:53:10,220:Multiplication of two number is 98
+CRITICAL:2021-01-19 21:53:10,223:2.0
+CRITICAL:2021-01-19 21:53:10,223:2.0
+INFO:2021-01-19 21:53:10,225:odd
+INFO:2021-01-19 21:53:10,249:\
