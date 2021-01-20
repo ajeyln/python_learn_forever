@@ -12,8 +12,6 @@
     + [python_virtual_environment](#python_virtual_environment)
     + [pytest](#pytest)
     + [logging](#logging)
-    + [functiontools](#functiontools)
-    + [pdb](#pdb)
 * [Reference](#Reference)
 * [Useful Links](#useful_links)
 * [Contact](#contact)
