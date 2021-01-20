@@ -11,9 +11,9 @@
     + [pylint](#pylint)
     + [python_virtual_environment](#python_virtual_environment)
     + [pytest](#pytest)
-    + [pdb](#pdb)
-    + [logging_mechanism_python](#logging_mechanism_python)
+    + [logging](#logging)
     + [functiontools](#functiontools)
+    + [pdb](#pdb)
 * [Reference](#Reference)
 * [Useful Links](#useful_links)
 * [Contact](#contact)
@@ -93,15 +93,22 @@ testing for applications and libraries.<br />
 The Module is very helpful for testing scripts <br>
 The folder contains my notes and exercises for your reference.  <br />
 
+### <a name="logging"></a>**logging **<br />
 ### <a name="pdb"></a>**pdb**<br />
-### <a name="logging_mechanism_python"></a>**logging_mechanism_python**<br />
 
 ### <a name="functiontools"></a>**functiontools**<br />
 
 ## To-Dos
-[ ] logging mechanism<br />
+[ ] logging<br />
+[ ] functiontools (module) <br />
+[ ] json related module with python <br />
+[ ] request module <br />
+[ ] flask api concept <br />
+[ ] Decorators <br />
+[ ] pipfile <br />
 [ ] pdb - Python debugging <br />
-[ ] functiontools (module) HIGHER Order functions in python <br />
+[ ] boto3 - Advance programming with AWS <br />
+[ ] AWS powertools - Advance programming with AWS <br />
  
 ## <a name="Reference"></a>References
 
