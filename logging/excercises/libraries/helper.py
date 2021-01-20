@@ -53,4 +53,4 @@ def display_greeting():
 def say_hello():
     "to say hello"
     logger.debug("saying Hello")
-    logger.info("Hello World")
+    print("Hello World")

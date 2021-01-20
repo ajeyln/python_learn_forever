@@ -57,7 +57,7 @@ def find_friend_surname():
     print(friend_name)
     if friend_name in friend_info.keys():
         return friend_info[friend_name]
-        logger.info(f'Friend surname is {friend_info[]}')
+        logger.info(f'Friend surname is {friend_info[friend_name]}')
     else:
         return False
         logger.info(f'Friend information not found')

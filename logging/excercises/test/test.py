@@ -4,6 +4,7 @@
 import os
 import sys
 import pytest
+import platform
 import logging
 sys.path.append(os.getcwd())
 

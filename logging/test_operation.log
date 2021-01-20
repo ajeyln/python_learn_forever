@@ -1,0 +1,28 @@
+2021-01-20 17:42:20,914:test_operation:testing add_num function in operation file
+2021-01-20 17:42:20,914:INFO:testing add_num function in operation file
+2021-01-20 17:42:20,929:test_operation:first values is 4
+2021-01-20 17:42:20,929:INFO:first values is 4
+2021-01-20 17:42:20,929:test_operation:second values is 5
+2021-01-20 17:42:20,929:INFO:second values is 5
+2021-01-20 17:42:20,929:test_operation:testing sub_num function in operation file
+2021-01-20 17:42:20,929:INFO:testing sub_num function in operation file
+2021-01-20 17:42:20,929:test_operation:first values is 12
+2021-01-20 17:42:20,929:INFO:first values is 12
+2021-01-20 17:42:20,929:test_operation:second values is 3
+2021-01-20 17:42:20,929:INFO:second values is 3
+2021-01-20 17:42:20,945:test_operation:testing div_num function in operation file
+2021-01-20 17:42:20,945:INFO:testing div_num function in operation file
+2021-01-20 17:42:20,945:test_operation:first values is 9
+2021-01-20 17:42:20,945:INFO:first values is 9
+2021-01-20 17:42:20,945:test_operation:second values is 2
+2021-01-20 17:42:20,945:INFO:second values is 2
+2021-01-20 17:42:20,961:test_operation:testing div_num function in operation file
+2021-01-20 17:42:20,961:INFO:testing div_num function in operation file
+2021-01-20 17:42:20,961:test_operation:first values is 15
+2021-01-20 17:42:20,961:INFO:first values is 15
+2021-01-20 17:42:20,961:test_operation:second values is 0
+2021-01-20 17:42:20,961:INFO:second values is 0
+2021-01-20 17:42:20,961:test_operation:Testing the number is odd or not
+2021-01-20 17:42:20,961:INFO:Testing the number is odd or not
+2021-01-20 17:42:20,976:test_operation:Testing the number is odd or not
+2021-01-20 17:42:20,976:INFO:Testing the number is odd or not
