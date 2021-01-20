@@ -93,14 +93,10 @@ testing for applications and libraries.<br />
 The Module is very helpful for testing scripts <br>
 The folder contains my notes and exercises for your reference.  <br />
 
-### <a name="logging"></a>**logging **<br />
-### <a name="pdb"></a>**pdb**<br />
-
-### <a name="functiontools"></a>**functiontools**<br />
+### <a name="logging"></a>**logging**<br />
 
 ## To-Dos
-[ ] logging<br />
-[ ] functiontools (module) <br />
+[ ] functools (module) <br />
 [ ] json related module with python <br />
 [ ] request module <br />
 [ ] flask api concept <br />
@@ -134,6 +130,9 @@ For reference, please find the link from [python Programming](https://edu.heibai
 14| [Pytest Tutorial - 2](https://www.tutorialspoint.com/pytest/index.htm) | Pytest Tutorial |
 15| [Pytest Tutorial - 3](https://docs.pytest.org/en/stable/)| Pytest Tutorial|
 16| [Pytest Code Coverage](https://pypi.org/project/pytest-cov/)| Pytest Code Coverage Tutorial
+17| [Logging Basic](https://www.youtube.com/watch?v=-ARI4Cz-awo)| Python logging - Basic Tutorial |
+18| [Logging Advanced](https://www.tutorialspoint.com/pytest/index.htm) | Python logging - Advanced Tutorial |
+19| [Pytest Logging](https://docs.python.org/3/library/logging.html)| Python logging Tutorial|
 
 <h2><a name="contact"></a>Contact :</h2>
 
