@@ -168,7 +168,7 @@ log_file_level = DEBUG
 log_file_format = %(pathname)s %(asctime)s %(message)s
 log_file_date_format = %Y-%m-%d %H:%M:%S
 ```
-+  Updated in the test file as follows :
++  Update in the test file as follows :
 ```python 
 <logger name> = logging.getLogger(__name__)
 logging.basicConfig(level=logging.<level name>)
