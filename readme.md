@@ -141,6 +141,7 @@ For reference, please find the link from [python Programming](https://edu.heibai
 17| [Logging Basic](https://www.youtube.com/watch?v=-ARI4Cz-awo)| Python logging - Basic Tutorial |
 18| [Logging Advanced](https://www.youtube.com/watch?v=jxmzY9soFXg) | Python logging - Advanced Tutorial |
 19| [Pytest Logging](https://docs.python.org/3/library/logging.html)| Python logging Tutorial|
+20| [Pytest Logging](https://stackoverflow.com/questions/4673373/logging-within-pytest-tests)| Logging for Pytest|
 
 <h2><a name="contact"></a>Contact :</h2>
 

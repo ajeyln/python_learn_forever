@@ -20,6 +20,7 @@
         * [Monkey Patching delete items from dictionary](#delitem)
     + [Fixtures](#fix)
         * [parameterized fixture](#param)
+    + [Pytest Logging](#logging)
 * [Useful Links](#useful)
 
 ## <a name="background"></a> Background
@@ -255,6 +256,23 @@ def test_eval(test_input, expected):
     assert eval(test_input) == expected
 ```
 
+### <a name="test"></a> Configuration for Pytest files <br />
+If we need to configure log for test cases, we need to do as follows
+
++ Create a file with file name "pytest.ini" and write on that as shown below:
+```
+[pytest]
+log_file = <file path>
+log_file_level = DEBUG 
+log_file_format = %(pathname)s %(asctime)s %(message)s
+log_file_date_format = %Y-%m-%d %H:%M:%S
+```
++  Update in the test file as follows :
+```python 
+<logger name> = logging.getLogger(__name__)
+logging.basicConfig(level=logging.<level name>)
+```
+Note: For more information, Plase visit the folder [excercise](/../logging/excercises/test)
 ## <a name="useful"></a> Useful Links
 
 | **Sl. No.** | **Link** | **Remarks** |

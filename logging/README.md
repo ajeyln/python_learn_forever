@@ -9,11 +9,10 @@
         * [Level](#level)
         * [File Name](#filename)
         * [Format](#format)
+    + [Logger](#logger)
     + [Handler](#handler)
     + [Configuration for Pytest files](#test)
     + [Useful Links](#useful)
-
-
 
 ## <a name="background"></a> Background
 
@@ -118,16 +117,33 @@ The Log file is generated for the above script is : <br />
 
 ```2018-07-11 20:12:06,288 - Admin logged in```
 
+### <a name="logger"></a> Logger <br />
+logger controls the different handlers (file & Stream), which is specified to various levels and sends the logs to a file,<br />.
+
+we can create a new logger using the ```logger.getLogger(name)```method and we can set the level ```logger.setLevel(logging.<level>)``` <br >
+
+Eg: 
+```python
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+fomatter_stream = logging.Formatter('%(pathname)s:%(asctime)s:%(message)s')
+
+stream_data = logging.StreamHandler()
+stream_data.setFormatter(fomatter_stream)
+
+logger.addHandler(stream_data)
+```
 ### <a name="handler"></a> Handler <br />
 When we want to configure the logs output as per the level, we can do by using file handler <br />
 
 We need to add the handler after the it is created using ```<logger name>.addHandler(<handler name>)```
 
 Threre are two handler in logging 
-+ File Handling - The log files will be generated in file.<br />
++ File Handler - The logs will be generated in file.<br />
 We can generate logs in files using the file handler ```logging.FileHandler(<file name>)```
 
-+ Stream Handling - The log files will be generated in console. <br />
++ Stream Handling - The logs will be generated in console. <br />
 We can generate logs inconsole usinng stream handler ```logging.StreamHandler()```
 
 Eg: 
@@ -179,5 +195,6 @@ logging.basicConfig(level=logging.<level name>)
 | **Sl. No.** | **Link** | **Remarks** |
 ----------|--------------|--------------
 1| [Logging Basic](https://www.youtube.com/watch?v=-ARI4Cz-awo)| Python logging - Basic Tutorial |
-2| [Logging Advanced](https://www.tutorialspoint.com/pytest/index.htm) | Python logging - Advanced Tutorial |
+2| [Logging Advanced](https://www.youtube.com/watch?v=jxmzY9soFXg) | Python logging - Advanced Tutorial |
 3 | [Python Logging](https://docs.python.org/3/library/logging.html)| Python logging Tutorial|
+4 | [Pytest Logging](https://stackoverflow.com/questions/4673373/logging-within-pytest-tests)| Logging for Pytest|
