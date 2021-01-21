@@ -272,7 +272,7 @@ log_file_date_format = %Y-%m-%d %H:%M:%S
 <logger name> = logging.getLogger(__name__)
 logging.basicConfig(level=logging.<level name>)
 ```
-Note: For more information, Plase visit the folder [excercise](/../logging/excercises/test)
+Note: For more information, Plase visit the folder [excercise](../logging/excercises/test)
 ## <a name="useful"></a> Useful Links
 
 | **Sl. No.** | **Link** | **Remarks** |
