@@ -93,16 +93,26 @@ The folder contains my notes and exercises for your reference.  <br />
 
 ### <a name="logging"></a>**logging**<br />
 
+Logging is a very useful tool. It helps us to develop a better understanding of the flow of a program and discover 
+scenarios.<br />
+
+Logs provide developers with an extra set of information that are constantly looking at the flow.
+It can store information, like If an error occurs, then they can provide more insights than a stack trace. <br />
+
+I have referred [Python Logging Basic](https://www.youtube.com/watch?v=-ARI4Cz-awo) & [Advanced](https://www.youtube.com/watch?v=jxmzY9soFXg) by Corey Shafer <br>
+
+The folder contains my notes and exercises for your reference.<br />
+
 ## To-Dos
-[ ] functools (module) <br />
-[ ] json related module with python <br />
-[ ] request module <br />
-[ ] flask api concept <br />
-[ ] Decorators <br />
-[ ] pipfile <br />
-[ ] pdb - Python debugging <br />
-[ ] boto3 - Advance programming with AWS <br />
-[ ] AWS powertools - Advance programming with AWS <br />
+1. functools (module) <br />
+2.  json related module with python <br />
+3. request module <br />
+4. flask api concept <br />
+5. Decorators <br />
+6. pipfile <br />
+7. pdb - Python debugging <br />
+8. boto3 - Advance programming with AWS <br />
+9. AWS powertools - Advance programming with AWS <br />
  
 ## <a name="Reference"></a>References
 
@@ -129,7 +139,7 @@ For reference, please find the link from [python Programming](https://edu.heibai
 15| [Pytest Tutorial - 3](https://docs.pytest.org/en/stable/)| Pytest Tutorial|
 16| [Pytest Code Coverage](https://pypi.org/project/pytest-cov/)| Pytest Code Coverage Tutorial
 17| [Logging Basic](https://www.youtube.com/watch?v=-ARI4Cz-awo)| Python logging - Basic Tutorial |
-18| [Logging Advanced](https://www.tutorialspoint.com/pytest/index.htm) | Python logging - Advanced Tutorial |
+18| [Logging Advanced](https://www.youtube.com/watch?v=jxmzY9soFXg) | Python logging - Advanced Tutorial |
 19| [Pytest Logging](https://docs.python.org/3/library/logging.html)| Python logging Tutorial|
 
 <h2><a name="contact"></a>Contact :</h2>

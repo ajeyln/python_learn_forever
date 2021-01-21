@@ -180,4 +180,4 @@ logging.basicConfig(level=logging.<level name>)
 ----------|--------------|--------------
 1| [Logging Basic](https://www.youtube.com/watch?v=-ARI4Cz-awo)| Python logging - Basic Tutorial |
 2| [Logging Advanced](https://www.tutorialspoint.com/pytest/index.htm) | Python logging - Advanced Tutorial |
-3 | [Pytest Logging](https://docs.python.org/3/library/logging.html)| Python logging Tutorial|
+3 | [Python Logging](https://docs.python.org/3/library/logging.html)| Python logging Tutorial|
