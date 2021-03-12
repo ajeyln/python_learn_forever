@@ -16,12 +16,13 @@ list_dict = [{"Searial_No": "1", "Female_Name": "Mary", "Husband_Name": "James",
 # pylint: enable=line-too-long
 
 list_key = []
-for dict in list_dict[0]:
-    list_key.append(dict) # Header creation
+for header_name in list_dict[0]:
+    list_key.append(header_name) # Header creation
 
 if os.path.exists("pesonal_info.csv"): # removing the files if already exists
-  os.remove("pesonal_info.csv")
+    os.remove("pesonal_info.csv")
 
+# pylint: disable=consider-using-enumerate
 with open('pesonal_info.csv', 'a', newline='') as file: # creating .csv file
     writer = csv.writer(file)
     writer.writerow(list_key)
