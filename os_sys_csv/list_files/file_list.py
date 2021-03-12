@@ -14,5 +14,8 @@ for x in os.walk(designated_path):
     for file_name in glob(os.path.join(x[0], '*.*')):#to find the path of the files paths
         file_paths.append(file_name)
 
+# Creating file and adding path details in it
+file_detail = open('fullpath.txt', "a")
 for file_path in file_paths:
-    print(file_path)
+    file_detail.write(f"{file_path} \n")
+file_detail.close()
