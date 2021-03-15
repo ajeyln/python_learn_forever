@@ -1,0 +1,53 @@
+Creation of Database
+D:\Python_Learning_Repository\learn_python_forever\sqlite3\manual_CRUD>sqlite3 school.db
+SQLite version 3.35.0 2021-03-12 15:10:09
+Enter ".help" for usage hints.
+
+Creating Table Student
+sqlite> create table student(ID integer primary key, NAME varchar(15), AGE integer, SEX varchar(15), GRADE integer);
+sqlite> insert into student values(2019101, "Amar", 6, "Male", 1);
+sqlite> insert into student values(2019102, "Anil", 6, "Male", 1);
+sqlite> insert into student values(2019103, "Anusha", 6, "Female", 1);
+sqlite> insert into student values(2019104, "Akbar", 6, "Female", 1);
+
+Reading table Student
+sqlite> select * from student ;
+2019101|Amar|6|Male|1
+2019102|Anil|6|Male|1
+2019103|Anusha|6|Female|1
+2019104|Akbar|6|Female|1
+
+Creating Table teacher
+sqlite> create table teacher(ID varchar(8) primary key, NAME varchar(15), AGE integer, SEX varchar(15), SUBJECT varchar(15));
+sqlite> insert into teacher values("2015T01", "Kamala", 26, "Female", "Maths");
+sqlite> insert into teacher values("2015T02", "Ajith Kumar", 32, "Male", "Science");
+sqlite> insert into teacher values("2015T03", "Shivkumar", 33, "Male", "Social");
+sqlite> insert into teacher values("2015T04", "Ranganath", 33, "Male", "Sports");
+
+Reading table teacher
+sqlite> select * from teacher;
+2015T01|Kamala|26|Female|Maths
+2015T02|Ajith Kumar|32|Male|Science
+2015T03|Shivkumar|33|Male|Social
+2015T04|Ranganath|33|Male|Sports
+
+Upadating the table teacher, Changing the subject to "PET" from "SPORTS" where ID = 2015T04
+sqlite> update teacher set SUBJECT = "PET" WHERE ID = "2015T04";
+sqlite> select * from  teacher;
+2015T01|Kamala|26|Female|Maths
+2015T02|Ajith Kumar|32|Male|Science
+2015T03|Shivkumar|33|Male|Social
+2015T04|Ranganath|33|Male|PET
+
+Backing up the school.db to school_bkp.db
+sqlite> .backup school_bkp.db
+
+opening the school_bkp to check
+sqlite> .open school_bkp.db
+
+Reading the table student
+sqlite> select * from student;
+2019101|Amar|6|Male|1
+2019102|Anil|6|Male|1
+2019103|Anusha|6|Female|1
+2019104|Akbar|6|Female|1
