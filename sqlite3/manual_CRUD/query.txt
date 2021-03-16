@@ -51,3 +51,104 @@ sqlite> select * from student;
 2019102|Anil|6|Male|1
 2019103|Anusha|6|Female|1
 2019104|Akbar|6|Female|1
+
+Opening school.db
+sqlite> .open school.db
+
+to check the tables information in school.db
+sqlite> .tables
+student  teacher
+
+Reading tables student and teacher
+sqlite> select * from teacher;
+2015T01|Kamala|26|Female|Maths
+2015T02|Ajith Kumar|32|Male|Science
+2015T03|Shivkumar|33|Male|Social
+2015T04|Ranganath|33|Male|PET
+
+sqlite> select * from student;
+2019101|Amar|6|Male|1
+2019102|Anil|6|Male|1
+2019103|Anusha|6|Female|1
+2019104|Akbar|6|Female|1
+
+to check output mode of school.db
+sqlite> .mode
+current output mode: list
+
+to check the structure of tables(student & teacher)
+sqlite> .schema
+CREATE TABLE student(ID integer primary key, NAME varchar(15), AGE integer, SEX varchar(15), GRADE integer);
+CREATE TABLE teacher(ID varchar(8) primary key, NAME varchar(15), AGE integer, SEX varchar(15), SUBJECT varchar(15));
+
+opening school_bkp.db
+sqlite> .open school_bkp.db
+
+checking the tables in school_bkp.db
+sqlite> .tables
+student  teacher
+
+checking the data in table student and teacher of school_bkp.db
+sqlite> select * from teacher;
+2015T01|Kamala|26|Female|Maths
+2015T02|Ajith Kumar|32|Male|Science
+2015T03|Shivkumar|33|Male|Social
+2015T04|Ranganath|33|Male|PET
+
+sqlite> select * from student;
+2019101|Amar|6|Male|1
+2019102|Anil|6|Male|1
+2019103|Anusha|6|Female|1
+2019104|Akbar|6|Female|1
+
+checking the structure of school_bkp.db
+sqlite> .schema
+CREATE TABLE student(ID integer primary key, NAME varchar(15), AGE integer, SEX varchar(15), GRADE integer);
+CREATE TABLE teacher(ID varchar(8) primary key, NAME varchar(15), AGE integer, SEX varchar(15), SUBJECT varchar(15));
+
+opening school.db again
+sqlite> .open school.db
+
+deleting the table teacher
+sqlite> drop table teacher;
+
+checking the current status of tables in school.db
+sqlite> .tables
+student
+
+deleting the table student from school.db
+sqlite> drop table student;
+
+
+checking the current status of tables in school.db
+sqlite> .tables
+
+checking backup file 
+sqlite> .open school_bkp.db
+sqlite> .table
+student  teacher
+
+opening school.db (which is already empty)
+sqlite> .open school.db
+
+checking the current status of tables in school.db
+sqlite> .tables
+
+restoring school.db with school_bkp.db
+sqlite> .restore school_bkp.db
+
+checking the current status of tables in school.db
+sqlite> .table
+student  teacher
+
+checking the data in tables student and teachers
+sqlite> select * from teacher;
+2015T01|Kamala|26|Female|Maths
+2015T02|Ajith Kumar|32|Male|Science
+2015T03|Shivkumar|33|Male|Social
+2015T04|Ranganath|33|Male|PET
+sqlite> select * from student;
+2019101|Amar|6|Male|1
+2019102|Anil|6|Male|1
+2019103|Anusha|6|Female|1
+2019104|Akbar|6|Female|1
