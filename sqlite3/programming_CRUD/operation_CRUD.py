@@ -1,6 +1,10 @@
 import sqlite3
 import os
 
+
+if os.path.exists("school.db"): # removing the files if already exists
+    os.remove("school.db")
+
 # accessing database
 conn = sqlite3.connect('school.db')
 c = conn.cursor()
@@ -10,7 +14,7 @@ c.execute('''create table student(ID integer primary key, NAME varchar(15), AGE 
 c.execute('insert into student values(2019101, "Amar", 6, "Male", 1)')
 c.execute('insert into student values(2019102, "Anil", 6, "Male", 1)')
 c.execute('insert into student values(2019103, "Anusha", 6, "Female", 1)')
-c.execute('insert into student values(2019104, "Akbar", 6, "Female", 1)')
+c.execute('insert into student values(2019104, "Akbar", 6, "Male", 1)')
 
 # Creating Table teacher
 c.execute('''create table teacher(ID varchar(8) primary key, NAME varchar(15), AGE integer, SEX varchar(15), SUBJECT varchar(15))''')
@@ -36,9 +40,6 @@ conn.commit()
 # Updataion
 c.execute('update teacher set NAME = "Ramesh" WHERE ID = "2015T04"') 
 print("Upadated the table teacher, Changing the Name to Ramesh where ID = 2015T04")
-
-c.execute('update student set AGE = 13 AND GRADE = 8 WHERE ID = 2019102')
-print("Upadated the table student, Changing the Age to 8 and Grade to 8 where ID = 2019102")
 
 c.execute('update student set NAME = "Anthony" WHERE ID = 2019104')
 print("Upadated the table teacher, Changing the Name to Ramesh where ID = 2015T04")
