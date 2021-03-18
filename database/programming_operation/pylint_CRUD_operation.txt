@@ -1,0 +1,6 @@
+************* Module CRUD_operation
+CRUD_operation.py:1:0: C0103: Module name "CRUD_operation" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 9.67/10 (previous run: 9.67/10, +0.00)
+
