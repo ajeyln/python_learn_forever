@@ -1,7 +1,6 @@
 import sqlite3
 import os
 
-
 if os.path.exists("school.db"): # removing the files if already exists
     os.remove("school.db")
 
