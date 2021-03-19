@@ -13,6 +13,7 @@
     + [pytest](#pytest)
     + [logging](#logging)
     + [database - CRUD operations](#dbase)
+    + [File Operation](#foperation)
 * [Reference](#Reference)
 * [Useful Links](#useful_links)
 * [Contact](#contact)
@@ -104,7 +105,7 @@ I have referred [Python Logging Basic](https://www.youtube.com/watch?v=-ARI4Cz-a
 
 The folder contains my notes and exercises for your reference.<br />
 
-### <a name="dbase"></a>**Database - CRUD Operations</**<br />
+### <a name="dbase"></a>**Database - CRUD Operations**<br />
 
 Database query is a request to access data from a database to manipulate or retrieve datas <br />
 This allows us to perform logic with the information and we get in response to the query <br />
@@ -112,6 +113,17 @@ This allows us to perform logic with the information and we get in response to t
 Based on method of querring, There will be two types of operational method <br />
 1. Manual Operation
 2. Programmin Operations
+
+### <a name="foperation"></a>**File Operation**<br />
+File is defined as a set of related data or information. <br />
+Folders help us to keep our files organized and separate and folder can have sub folders as well <br />
+
+In this folder, we have created file and folder operation based on following modules 
+1. **os** - The OS module in Python provides functions for interacting with the operating system.
+OS comes under Python’s standard utility modules. This module provides a portable way of using operating system dependent functionality. <br />
+2. **sys** - The python sys module provides functions and variables which are used to manipulate paths of the Python Runtime Environment. <br />
+3. **csv** -  The csv library contains objects and other code to read, write, and process data from and to CSV files.
+
 
 ## To-Dos
 1. functools (module) <br />
