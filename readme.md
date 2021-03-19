@@ -12,6 +12,7 @@
     + [python_virtual_environment](#python_virtual_environment)
     + [pytest](#pytest)
     + [logging](#logging)
+    + [database - CRUD operations](#dbase)
 * [Reference](#Reference)
 * [Useful Links](#useful_links)
 * [Contact](#contact)
@@ -103,6 +104,15 @@ I have referred [Python Logging Basic](https://www.youtube.com/watch?v=-ARI4Cz-a
 
 The folder contains my notes and exercises for your reference.<br />
 
+### <a name="dbase"></a>**Database - CRUD Operations</**<br />
+
+Database query is a request to access data from a database to manipulate or retrieve datas <br />
+This allows us to perform logic with the information and we get in response to the query <br />
+
+Based on method of querring, There will be two types of operational method <br />
+1. Manual Operation
+2. Programmin Operations
+
 ## To-Dos
 1. functools (module) <br />
 2.  json related module with python <br />
@@ -142,6 +152,7 @@ For reference, please find the link from [python Programming](https://edu.heibai
 18| [Logging Advanced](https://www.youtube.com/watch?v=jxmzY9soFXg) | Python logging - Advanced Tutorial |
 19| [Pytest Logging](https://docs.python.org/3/library/logging.html)| Python logging Tutorial|
 20| [Pytest Logging](https://stackoverflow.com/questions/4673373/logging-within-pytest-tests)| Logging for Pytest|
+21| [SQLITE3](https://www.sqlite.org/)| SQLITE Tutorial |
 
 <h2><a name="contact"></a>Contact :</h2>
 
