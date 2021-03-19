@@ -3,7 +3,7 @@ import sqlite3
 import csv
 import os
 
-def head_file(database_name, table_name, insert_file, update_file, delete_file):
+def main(database_name, table_name, insert_file, update_file, delete_file):
     ''' Data processing methods'''
     cur_val = connect_database(database_name) # Connecting database
     list_header = get_header(cur_val, table_name) # Getting Header List
@@ -99,4 +99,4 @@ def create_file(file_name, cur_val, table_name, list_header):
             writer.writerow(list_dict[k].values())
 
 if __name__ == "__main__":
-    head_file('school.db', 'student', 'insert.csv', 'update.csv', 'delete.csv')
+    main('school.db', 'student', 'insert.csv', 'update.csv', 'delete.csv')
