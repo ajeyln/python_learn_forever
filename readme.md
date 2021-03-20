@@ -13,7 +13,7 @@
     + [pytest](#pytest)
     + [logging](#logging)
     + [database - CRUD operations](#dbase)
-    + [File Operation](#foperation)
+    + [File Operation(OS, SYS, CSV)](#foperation)
 * [Reference](#Reference)
 * [Useful Links](#useful_links)
 * [Contact](#contact)
@@ -107,14 +107,23 @@ The folder contains my notes and exercises for your reference.<br />
 
 ### <a name="dbase"></a>**Database - CRUD Operations**<br />
 
-Database query is a request to access data from a database to manipulate or retrieve datas <br />
+A database is simply an organized collection of persistance storage of data. Databases arrange 
+information in such a way that any specific piece of information can be easily accessed. <br />
+A database contains the data or information for the database are stored in uniquely identifier called tables abd these are comprised of columns and rows. Columns contain attributes for the column such as column name, data type etc.Rows contain the records or data for the columns.
+
+There are mainly two types of databases
+1. SQL database
+2. No SQL databases
+In this folder, we are working on SQL based databases.
+
+Database query is a tool to access data from a database to manipulate or retrieve datas <br />
 This allows us to perform logic with the information and we get in response to the query <br />
 
-Based on method of querring, There will be two types of operational method <br />
+Based on method of quering, There will be two types of operational method <br />
 1. Manual Operation
 2. Programmin Operations
 
-### <a name="foperation"></a>**File Operation**<br />
+### <a name="foperation"></a>**File Operation(OS, SYS, CSV)**<br />
 File is defined as a set of related data or information. <br />
 Folders help us to keep our files organized and separate and folder can have sub folders as well <br />
 
@@ -122,8 +131,7 @@ In this folder, we have created file and folder operation based on following mod
 1. **os** - The OS module in Python provides functions for interacting with the operating system.
 OS comes under Python’s standard utility modules. This module provides a portable way of using operating system dependent functionality. <br />
 2. **sys** - The python sys module provides functions and variables which are used to manipulate paths of the Python Runtime Environment. <br />
-3. **csv** -  The csv library contains objects and other code to read, write, and process data from and to CSV files.
-
+3. **csv (Comma Seperated Value)** -  The csv library contains objects and other code to read, write, and process data from and to CSV formatted files.
 
 ## To-Dos
 1. functools (module) <br />
