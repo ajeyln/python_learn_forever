@@ -9,11 +9,19 @@
     + [Useful Links](#useful)
 
 ## <a name="background"></a> Background
+A database is simply an organized collection of persistance storage of data. Databases arrange 
+information in such a way that any specific piece of information can be easily accessed. <br />
+A database contains the data or information for the database are stored in uniquely identifier called tables abd these are comprised of columns and rows. Columns contain attributes for the column such as column name, data type etc.Rows contain the records or data for the columns.
 
-Database query is a request to access data from a database to manipulate or retrieve datas <br />
+There are mainly two types of databases
+1. SQL database
+2. No SQL databases
+In this folder, we are working on SQL based databases.
+
+Database query is a tool to access data from a database to manipulate or retrieve datas <br />
 This allows us to perform logic with the information and we get in response to the query <br />
 
-Based on method of querring, There will be two types of operational method <br />
+Based on method of quering, There will be two types of operational method <br />
 1. Manual Operation
 2. Programmin Operations
 
@@ -26,7 +34,7 @@ Manaual CRUD Operations are, which we are interacting with databases using Deskt
 I have used SQLITE3 for the CRUD operations<br />
 
 In this folder, you will find three files
-1. querry.txt - In this file, you can find various qurries. Based on the quries, I have created Database and done CRUD operation on it. <br >
+1. query.txt - In this file, you can find various qurries. Based on the quries, I have created Database and done CRUD operation on it. <br >
 2. School.db - It is database, which I have created, to perform CRUD operation on it.
 3. school_bkp.db - It is backup database, which I have created during CRUD Operation. 
 
